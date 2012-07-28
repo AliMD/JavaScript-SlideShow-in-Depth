@@ -19,4 +19,6 @@ window.onload=function(){
 			}
 		})(i);
 	}
+
+	go2slide(0); // set active of first li
 }
