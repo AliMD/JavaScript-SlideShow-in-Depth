@@ -36,8 +36,21 @@ window.onload=function(){
 		})(i);
 	}
 
-	//slideshow.onmouseover = autoPlayStop;
-	//slideshow.onmouseout = autoPlayStart;
+	/*
+	slideshow.onmouseover=function(){
+		autoPlayStop();
+	}
+	slideshow.onmouseout=function(){
+		autoPlayStart();
+	}
+	*/
+
+	// or
+	
+	/*
+	slideshow.onmouseover = autoPlayStop;
+	slideshow.onmouseout = autoPlayStart;
+	*/
 
 	go2slide(0); // set active of first li
 	autoPlayStart();
