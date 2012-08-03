@@ -11,18 +11,20 @@
 	<div class="container">
 		<div class="slideshow">
 			<div class="train" id="train">
-				<div style="background-image:url('../images/pic1.jpg');"></div>
-				<div style="background-image:url('../images/pic2.jpg');"></div>
-				<div style="background-image:url('../images/pic3.jpg');"></div>
-				<div style="background-image:url('../images/pic4.jpg');"></div>
+				<script type="text/javascript">
+					for(var i=1;i<5;i++){
+						document.write('<div style=\"background-image:url(../images/pic'+i+'.jpg);\"></div>');
+					}
+				</script>
 			</div>
 			<div class="previous"></div>
 			<div class="next"></div>
 			<ul class="btns">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<script type="text/javascript">
+					for(var i=1;i<5;i++){
+						document.write('<li></li>');
+					}
+				</script>
 			</ul>
 		</div>
 	</div>
