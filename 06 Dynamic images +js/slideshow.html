@@ -10,7 +10,7 @@
 <body>
 	<div class="container">
 		<div class="slideshow">
-			<div class="train" id="train">
+			<div class="train">
 				<script type="text/javascript">
 					var slidesLen = 4;
 					for(var i=1;i<=slidesLen;i++){
