@@ -11,21 +11,29 @@
 	<div class="container">
 		<div class="slideshow">
 			<div class="train">
-				<script type="text/javascript">
-					var slidesLen = 4;
-					for(var i=1;i<=slidesLen;i++){
-						document.write("<div style=\"background-image:url('../images/pic"+i+".jpg');\"></div>");
+				<?php
+					$images_path = '../images';
+
+					$images = scandir($images_path);
+					$slidesLen = 0;
+					foreach($images as $img){
+						$img_arr = explode('.', $img);
+						$img_type = strtolower( end($img_arr) ); // JPG => jpg
+						if ($img_type=='jpg') {
+							echo "<div style=\"background-image:url('$images_path/$img');\"></div>";
+							$slidesLen++;
+						}
 					}
-				</script>
+				?>
 			</div>
 			<div class="previous"></div>
 			<div class="next"></div>
 			<ul class="btns">
-				<script type="text/javascript">
-					for(i=0;i<slidesLen;i++){
-						document.write("<li></li>");
+				<?php
+					for($i=0;$i<$slidesLen;$i++){
+						echo "<li></li>";
 					}
-				</script>
+				?>
 			</ul>
 		</div>
 	</div>
