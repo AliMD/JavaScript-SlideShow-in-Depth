@@ -17,20 +17,17 @@ $(document).ready(function(){
 		};
 	};
 	img.eq(0).css({opacity:'1'})
-	li.eq(0).click(function(){
+
+	showpic = function(n){
 		opa();
-		img.eq(0).animate({opacity:'1'},1000)
-	});
-	li.eq(1).click(function(){
-		opa();
-		img.eq(1).animate({opacity:'1'},1000)
-	});
-	li.eq(2).click(function(){
-		opa();
-		img.eq(2).animate({opacity:'1'},1000)
-	});
-	li.eq(3).click(function(){
-		opa();
-		img.eq(3).animate({opacity:'1'},1000)
-	});
+		img.eq(n).animate({opacity:'1'},1000);
+	}
+	
+	for(var i=0;i<4;i++){
+		(function(j){
+			li.eq(j).click(function(){
+				showpic(j)
+			})
+		})(i);
+	}
 });
