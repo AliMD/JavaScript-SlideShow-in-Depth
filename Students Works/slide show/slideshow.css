@@ -1,0 +1,122 @@
+body{
+	background-color: #EFEFEF;
+	background-image: url('images/background.png');
+}
+
+div.container{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+
+div.frame{
+	width: 739px;
+	height: 328px;
+	background-image: url("images/frame.png");
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 20px auto 0;
+}
+
+div.frame div.new{
+	width: 112px;
+	height: 112px;
+	position: absolute;
+	z-index: 10;
+	background-image: url('images/new.png');
+	top: 0px;
+	left: 65px;
+}
+
+div.frame div.bgloader{
+	width: 570px;
+	height: 270px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-image    : url('images/loading.gif');
+	background-repeat   : no-repeat;
+	background-position : center center;
+}
+
+div.frame div.slideshow{
+	width: 570px;
+	height: 310px;
+	overflow: hidden;
+	position: absolute;
+	top: 18px;
+	left: 83px;
+}
+
+div.slideshow div.train{
+	width: 10000px;
+	height: 270px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	-webkit-transition:left 700ms;
+}
+
+div.slideshow div.train > div{
+	width: 570px;
+	height: inherit;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.frame div.prev,
+div.frame div.next{
+	width: 24px;
+	height: 43px;
+	background-image: url('images/prev.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 125px;
+	cursor: pointer;
+	opacity: 0;
+	-webkit-transition: opacity 600ms;
+}
+
+div.frame div.prev{
+	background-image: url('images/prev.png');
+	left: 44px;
+}
+
+div.frame div.next{
+	background-image: url('images/next.png');
+	right: 46px;
+}
+
+div.frame:hover div.prev,
+div.frame:hover div.next{
+	opacity: 1;
+}
+
+div.slideshow ul.btn{
+	width: 570px;
+	height: 13px;
+	list-style: none;
+	position: absolute;
+	bottom: 0;
+	left: 233px;
+}
+
+div.slideshow ul.btn li{
+	float: left;
+	width: 12px;
+	height: 13px;
+	cursor: pointer;
+	margin-left: 3px;
+	background-image: url('images/btn.png');
+	background-position:0 0 ;
+}
+
+div.slideshow ul.btn li:hover,
+div.slideshow ul.btn li.active{
+	background-image: url('images/btn.png');
+	background-position: center bottom;
+}
