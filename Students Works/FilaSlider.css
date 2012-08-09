@@ -27,8 +27,8 @@ div.slideshow div.case-train{
 	border:1px solid magenta;
 }
 
-div.slideshow div#pre,
-div.slideshow div#next{
+div.slideshow div.pre,
+div.slideshow div.next{
 	width:50px;
 	height:50px;
 	background-color:red;
@@ -36,12 +36,12 @@ div.slideshow div#next{
 	position:absolute;
 }
 
-div.slideshow div#pre{
+div.slideshow div.pre{
 	top:200px;
 	left:-30px;
 }
 
-div.slideshow div#next{
+div.slideshow div.next{
 	top:200px;
 	right:-30px;
 }
@@ -52,10 +52,14 @@ div.case-train div.train{
 	position:absolute;
 	top:0;
 	left:0;
+	-webkit-transition: left 800ms ease-in-out;
+	-moz-transition: left 800ms ease-in-out;
+	-o-transition: left 800ms ease-in-out;
+	-ms-transition: left 800ms ease-in-out;
 	border:1px solid blue;
 }
 
-div.train div{
+div.train > div{
 	width:230px;
 	height:410px;
 	border:1px solid black;
