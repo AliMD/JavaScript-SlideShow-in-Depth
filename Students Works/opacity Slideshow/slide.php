@@ -14,13 +14,11 @@
 				<?php
 					$path = '../../images';
 					$images = scandir($path);
-					$counter = 0;
 					foreach($images as $img){
 						$img_arr = explode('.', $img);
 						$img_type = strtolower( end($img_arr) );
 						if ($img_type=='jpg') {
 							echo "<div style=\"background-image:url('$path/$img');\"></div>";
-							$counter++;
 						}
 					}
 				?>
