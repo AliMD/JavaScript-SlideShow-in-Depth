@@ -24,7 +24,11 @@ div.slideshow{
 	outline:1px solid black;
 }
 
-div.slideshow > div{
+div.slideshow div.train{
+	width:1000px;
+	height : inherit;
+}
+div.slideshow div.train > div{
 	height : inherit;
 	float  : left;
 	background-repeat   : no-repeat;
