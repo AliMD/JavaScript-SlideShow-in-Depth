@@ -3,19 +3,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Fila Slider</title>
-<link type="text/css" rel="stylesheet" href="style.css" />
+<link type="text/css" rel="stylesheet" href="FilaSlider.css" />
+<script type="text/javascript" src="FilaSlider.js"></script>
 </head>
 
 <body>
 	<div class="container">
     	<div class="slideshow">
-        	<div class="train">
-            	<div style="background-image:url(../images/pic1.jpg);"></div>
-            	<div style="background-image:url(../images/pic2.jpg);"></div>
-            	<div style="background-image:url(../images/pic3.jpg);"></div>
-            	<div style="background-image:url(../images/pic2.jpg);"></div>
-            	<div style="background-image:url(../images/pic3.jpg);"></div>
+        	<div class="case-train">
+        		<div class="train">
+                    <div style="background-image:url(../images/Fila1.jpg);"></div>
+                    <div style="background-image:url(../images/Fila2.jpg);"></div>
+                    <div style="background-image:url(../images/Fila3.jpg);"></div>
+                    <div style="background-image:url(../images/Fila4.jpg);"></div>
+                    <div style="background-image:url(../images/Fila5.jpg);"></div>
+          		</div>
             </div>
+            <div id="pre"></div>
+            <div id="next"></div>
         </div>
     </div>
 </body>
