@@ -12,14 +12,41 @@ div.container{
 
 div.container div.slideshow{
 	width:700px;
+	height:610px;
+	margin:0 auto;
+	position:relative;
+	border:1px solid green;
+}
+
+div.slideshow div.case-train{
+	width:700px;
 	height:410px;
 	margin:0 auto;
 	position:relative;
 	overflow:hidden;
-	border:1px solid green;
+	border:1px solid magenta;
 }
 
-div.slideshow div.train{
+div.slideshow div#pre,
+div.slideshow div#next{
+	width:50px;
+	height:50px;
+	background-color:red;
+	cursor:pointer;
+	position:absolute;
+}
+
+div.slideshow div#pre{
+	top:200px;
+	left:-30px;
+}
+
+div.slideshow div#next{
+	top:200px;
+	right:-30px;
+}
+
+div.case-train div.train{
 	width:10000px;
 	height:410px;
 	position:absolute;
@@ -35,4 +62,5 @@ div.train div{
 	float:left;
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-position:center center;
 }
