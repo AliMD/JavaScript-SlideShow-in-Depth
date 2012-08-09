@@ -14,7 +14,7 @@ div.container{
 
 div.slideshow{
 	width      : 450px;
-	height     : 324px;
+	height     : 300px;
 	margin     : 30px auto 0;
 	overflow   : hidden;
 	position   : relative;
@@ -27,7 +27,6 @@ div.slideshow{
 div.slideshow > div{
 	height : inherit;
 	float  : left;
-	border-radius       : 4px;
 	background-repeat   : no-repeat;
 	background-position : left top;
 }
