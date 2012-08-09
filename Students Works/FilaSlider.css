@@ -3,6 +3,11 @@
 	margin:0;
 }
 
+body{
+	background-color:#424242;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
 div.container{
 	width:980px;
 	height:700px;
@@ -12,8 +17,8 @@ div.container{
 
 div.container div.slideshow{
 	width:700px;
-	height:610px;
-	margin:0 auto;
+	height:450px;
+	margin:150px auto 0;
 	position:relative;
 	border:1px solid green;
 }
@@ -29,21 +34,35 @@ div.slideshow div.case-train{
 
 div.slideshow div.pre,
 div.slideshow div.next{
-	width:50px;
-	height:50px;
-	background-color:red;
+	width:41px;
+	height:40px;
 	cursor:pointer;
 	position:absolute;
 }
 
 div.slideshow div.pre{
 	top:200px;
-	left:-30px;
+	left:-51px;
+	background-image:url(../images/sprite-icons.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+
+div.slideshow div.pre:hover{
+	background-position:0 -42px;
 }
 
 div.slideshow div.next{
 	top:200px;
-	right:-30px;
+	right:-51px;
+	background-image:url(../images/sprite-icons.png);
+	background-repeat:no-repeat;
+	background-position:-43px -2px;
+}
+
+div.slideshow div.next:hover{
+	background-position:-43px -43px;
 }
 
 div.case-train div.train{
@@ -56,15 +75,62 @@ div.case-train div.train{
 	-moz-transition: left 800ms ease-in-out;
 	-o-transition: left 800ms ease-in-out;
 	-ms-transition: left 800ms ease-in-out;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 }
 
 div.train > div{
 	width:230px;
 	height:410px;
-	border:1px solid black;
 	float:left;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
+	position:relative;
+	/*border:1px solid black;*/
+}
+
+div.train > div div.info{
+	width:inherit;
+	height:80px;
+	position:absolute;
+	bottom:-80px;
+	left:0;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: left 800ms ease-in-out;
+	-o-transition: left 800ms ease-in-out;
+	-ms-transition: left 800ms ease-in-out;
+	/*background-color:rgba(80,80,80,0.5);
+	background-color:#545354;
+	opacity:0.5;
+	background-image:url(../images/fila_bg_info1.png);*/
+	background-image:url(../images/fila_bg_info.png);
+}
+
+div.info > div{
+	width:inherit;
+	height:50px;
+	padding-top:1px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+div.info > div > span{
+	display:block;
+	margin:5px 0 0 10px;
+}
+
+div.info > a{
+	display: block;
+	width:inherit;
+	height:30px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px; /* with this way whole text in div display in center as top-bottom and right-left (line-height==height of div and text-align=center)*/ 
+	text-transform: uppercase;
+	background-image:url(../images/fila_bg_info_a.png);
 }
