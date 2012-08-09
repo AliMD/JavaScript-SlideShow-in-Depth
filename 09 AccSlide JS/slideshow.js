@@ -3,6 +3,8 @@ $(document).ready(function(){
 
 	slides = $('div.slideshow div.train > div');
 	slides.css({width:slidesWidth+'px'});
+	slides.last().css({'padding-right':'200px'});
+	//$('div.slideshow div.train > div:last-child').css({'padding-right':'200px'});
 
 	slides.mouseover(function(){
 		slides.animate({width:'50px'},500);
