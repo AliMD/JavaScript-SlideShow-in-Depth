@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+div.container{
+	width:980px;
+	height:700px;
+	margin:0 auto;
+	border:1px solid red;
+}
+
+div.container div.slideshow{
+	width:700px;
+	height:410px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	border:1px solid green;
+}
+
+div.slideshow div.train{
+	width:10000px;
+	height:410px;
+	position:absolute;
+	top:0;
+	left:0;
+	border:1px solid blue;
+}
+
+div.train div{
+	width:230px;
+	height:410px;
+	border:1px solid black;
+	float:left;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
