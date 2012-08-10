@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="../reset.css" />
+	<link rel="stylesheet" type="text/css" href="../../../reset.css" />
 	<link rel="stylesheet" type="text/css" href="slideshow.css" />
 	<script type="text/javascript" src="slideshow.js"></script>
 	<title>Slide Show</title>
