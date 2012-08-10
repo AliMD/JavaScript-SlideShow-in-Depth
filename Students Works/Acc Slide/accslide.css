@@ -1,0 +1,30 @@
+div.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+
+div.slideshow{
+	width: 1160px;
+	height: 405px;
+	margin: 10px auto 0;
+	overflow: hidden;
+	position: relative;
+	background-image: url('images/loading.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	outline: 1px solid black;
+}
+
+div.slideshow .train{
+	width: 10000px;
+	height: inherit;
+}
+
+div.slideshow .train > div{
+	height: inherit;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: left top;
+	cursor: pointer;
+}
