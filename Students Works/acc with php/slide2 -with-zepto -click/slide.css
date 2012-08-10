@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#777;
+}
+
+div.slide{
+	width:980px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+div.slide div.scroll{
+	width:700px;
+	height:230px;
+	margin:15px auto 0;
+	overflow:hidden;
+}
+
+div.slide div.scroll div.train{
+	width:1000px;
+	height:200px;
+}
+
+div.slide div.scroll div.train > div{
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:center top;
+	cursor:pointer;
+}
+
+div.bt{
+	height:24px;
+	background-image:url('../images/newgallery/slider-shadow.jpg');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+}
