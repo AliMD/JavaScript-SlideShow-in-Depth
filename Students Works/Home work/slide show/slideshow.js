@@ -5,7 +5,7 @@ window.onload= function(){
 	var slideshow= document.getElementsByClassName('slideshow').item(0);
 	var train= slideshow.getElementsByClassName('train').item(0);
 	var list= slideshow.getElementsByClassName('btn').item(0).getElementsByTagName('li');
-	var play= false;
+	
 	var currentSlide= 0;
 
 	(gotoslide = function (n){
@@ -25,6 +25,7 @@ window.onload= function(){
 		gotoslide(currentSlide-1);
 	}
 
+	var play= false;
 	(autoPlay= frame.onmouseout = function(){
 		if (play) return;
 		play= setInterval(nextslide,5000);
