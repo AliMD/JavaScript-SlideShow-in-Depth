@@ -1,11 +1,16 @@
 *{
 	padding:0;
 	margin:0;
+}
 
-	border:none !important;
-	
-	/*
-*/
+a img
+{
+    border:none;
+}
+
+a, a:active
+{
+    border:none;
 }
 
 body{
@@ -17,15 +22,13 @@ div.container{
 	width:980px;
 	height:700px;
 	margin:0 auto;
-	border:1px solid red;
 }
 
 div.container div.slideshow{
 	width:800px;
-	height:650px;
+	height:580px;
 	margin:10px auto 0;
 	position:relative;
-	border:1px solid green;
 }
 
 div.slideshow div.logo{
@@ -52,10 +55,9 @@ div.slideshow div.search-box{
 	height:20px;
 	float:right;
 	margin:15px 10px 0 0;
-	background-image:url(../images/background_search.gif);
+	background-image:url(../images/fila_background_search.gif);
 	background-repeat:no-repeat;
 	background-position:right top;
-	border:1px solid white;
 }
 
 div.slideshow div.search-box > input{
@@ -74,7 +76,6 @@ div.slideshow div.search-box > button{
 	border:0;
 	cursor:pointer;
 	float:left;
-	
 }
 
 div.slideshow > h2{
@@ -96,7 +97,6 @@ div.slideshow div.case-train{
 	margin:0 auto;
 	position:relative;
 	overflow:hidden;
-	border:1px solid magenta;
 }
 
 div.slideshow div.pre,
@@ -138,11 +138,11 @@ div.case-train div.train{
 	position:absolute;
 	top:0;
 	left:0;
+	transition: left 800ms ease-in-o;
 	-webkit-transition: left 800ms ease-in-out;
 	-moz-transition: left 800ms ease-in-out;
 	-o-transition: left 800ms ease-in-out;
 	-ms-transition: left 800ms ease-in-out;
-	/*border:1px solid blue;*/
 }
 
 div.train > div{
@@ -154,11 +154,6 @@ div.train > div{
 	background-position:center center;
 	position:relative;
 	margin-left:3px;
-	/*border:1px solid black;*/
-}
-
-div.train > div:first-child{
-	/*margin-left:3px;*/
 }
 
 div.train > div div.info{
@@ -167,15 +162,19 @@ div.train > div div.info{
 	position:absolute;
 	bottom:-80px;
 	left:0;
-	-webkit-transition: all 200ms ease-in-out;
-	-moz-transition: left 800ms ease-in-out;
-	-o-transition: left 800ms ease-in-out;
-	-ms-transition: left 800ms ease-in-out;
-	/*background-color:rgba(80,80,80,0.5);
-	background-color:#545354;
-	opacity:0.5;
-	background-image:url(../images/fila_bg_info1.png);*/
 	background-image:url(../images/fila_bg_info.png);
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	-ms-transition: all 1000ms ease-in-out;
+}
+
+div.train > div:hover div.info{
+	bottom:0px;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;	
 }
 
 div.info > div{
@@ -206,3 +205,17 @@ div.info > a{
 	text-transform: uppercase;
 	background-image:url(../images/fila_bg_info_a.png);
 }
+
+div.container p.footer{
+	width:100%;
+	left:0;
+	position:absolute;
+	bottom:20px;
+	color:#666;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:8pt;
+}
+
+
+
