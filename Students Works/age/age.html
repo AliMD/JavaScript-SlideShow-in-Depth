@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Age</title>
+
+<style type="text/css">
+body{
+	background-color:#323232;
+}
+#birthday{
+	font-family:"Comic Sans MS", cursive;
+	color:#cdcdcd;
+	font-size:22px;
+	text-align:center;
+	width:650px;
+	height:200px;
+	line-height:200px;
+	background-color:#212121;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-ms-border-radius:40px;
+	border-radius:40px;
+	margin:220px auto 0;
+	-webkit-box-shadow: inset 0px 5px 15px #111;
+	-moz-box-shadow: inset 0px 5px 15px #111;
+	-ms-box-shadow: inset 0px 5px 15px #111;
+	box-shadow: inset 0px 5px 15px #111;
+}
+	
+</style>
+
+<script type="text/javascript">
+
+window.onload=function(){
+
+	var day = new Date(prompt("Enter your BirthDay : ","28 sep 1988"));
+	function Birthday(){
+		var now = new Date();
+		age = new Date(now.getTime()- day.getTime());
+		document.getElementById("birthday").innerHTML=age.getFullYear()-1970+" Year "+age.getMonth()+" Month "+(age.getDay()-1)+" Day "+age.getHours()+" Hours "+age.getMinutes()+" Minutes "+age.getSeconds()+" Seconds ";
+	}
+	setInterval(Birthday,87);
+
+}
+
+</script>
+</head>
+
+<body>
+
+<p id="birthday"></p>
+
+</body>
+</html>

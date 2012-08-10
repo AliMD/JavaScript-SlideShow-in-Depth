@@ -1,0 +1,106 @@
+*{
+	margin:0 auto;
+	padding:1px;
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+.back-image{
+	background-image:url('images/stat-bg.jpg')	;
+}
+div.slideshow{
+	width: 600px;
+	height:430px;
+	margin: 63px 0px 0px 55px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.slideshow div.train{
+	width: 3000px;
+	height: 400px;
+	position: absolute;
+	top:0;
+	left:0;
+	-webkit-transition : all 500ms;
+}
+
+div.slideshow div.train > div{
+	width:600px;
+	height:inherit;
+	float:left;
+	-webkit-border-radius:5px;
+}
+
+/* ------------- button --------- */
+div.slideshow ul.button{
+	list-style: none;
+	position: absolute;
+	left: 240px;
+	bottom: 0;
+}
+
+div.slideshow ul.button li{
+	float: left;
+	
+	background-image:url('images/bullets.png');
+	background-position : 0px 0px;
+	width:22px;
+	height:20px;
+	cursor: pointer;
+	margin-right: 0px;
+	
+}
+
+
+div.slideshow ul.button li:hover {
+	background-position : 0px -20px;
+	
+}
+
+
+div.slideshow ul.button li.active{
+	background-position : 0px -22px;
+}
+/* ----------------------------------------------------- */
+div.slideshow div.prv,
+div.slideshow div.next{
+	position : absolute;
+	top      : 185px;
+	width    : 30px;
+	height   : 30px;
+	opacity  : 0;
+	cursor   : pointer;
+	background-image   : url('images/nivo-arrows.png');
+	background-repeat  : no-repeat;
+	-webkit-transition : opacity 500ms;
+}
+
+div.slideshow:hover div.prv,
+div.slideshow:hover div.next{
+	opacity : 1;
+}
+
+div.slideshow div.prv{
+	left : 10px;
+	background-position : 0px 0px;
+}
+
+div.slideshow div.next{
+	right : 10px;
+	background-position : -30px 0px;
+}
+
+/* ------------------- Back Slide ------------------------ */
+div.backSlide{
+	background-image:url('images/back.png');
+	background-repeat:no-repeat;
+	height:600px;
+	margin-left:160px;
+	padding-top:1px;
+	margin-top:40px;
+}

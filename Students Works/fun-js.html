@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fun</title>
+
+<style>
+
+div.box{
+	position:absolute;
+	left:40%;
+	top:45%;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	text-align:center;
+	line-height:40px;
+	width:80px;
+	height:40px;
+	background-color:#06C;
+	color:white;
+	-webkit-border-radius:10px;
+	-webkit-transition: all 500ms;	
+}
+
+</style>
+</head>
+
+<body>
+
+<script type="text/javascript">
+for(var a=0;a<80;a++){
+	document.write(	'<div class="box">Click ME</div>');
+}
+
+function rnd(x,y){
+	return Math.floor(Math.random()*(y-x+1))+x;	
+}
+
+function rndcolor(){
+	var c ='#';
+	for(var i=0;i<6;i++){
+		c+=rnd(0,15).toString(16);	
+	}
+	return c;
+}
+
+var box=document.getElementsByClassName('box');
+	for (var i=0;i<box.length;i++){
+		box.item(i).style.left = rnd(5,90)+'%';
+		box.item(i).style.top = rnd(5,85)+'%';
+		box.item(i).style.backgroundColor = rndcolor();
+		box.item(i).style.color = rndcolor();
+
+		box.item(i).onmouseover = function(){
+			this.style.left = rnd(5,90)+'%';
+			this.style.top = rnd(5,85)+'%';
+			this.style.webkitTransform='rotate('+rnd(0,180)+'deg)';
+			this.style.backgroundColor = rndcolor();
+			this.style.color = rndcolor();
+		}
+	}
+</script>
+
+</body>
+</html>
