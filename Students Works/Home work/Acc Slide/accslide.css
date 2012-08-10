@@ -1,27 +1,27 @@
 div.container{
-	width: 1200px;
+	width: 950px;
 	margin: 0 auto;
 	padding-top: 1px;
 }
 
-div.slideshow{
-	width: 1160px;
-	height: 405px;
-	margin: 10px auto 0;
+div.container div.slideshow{
+	width: 870px;
+	height: 270px;
+	margin: 20px auto 0;
 	overflow: hidden;
 	position: relative;
-	background-image: url('images/loading.gif');
+	background-image: url('../images/loading.gif');
 	background-repeat: no-repeat;
 	background-position: center center;
 	outline: 1px solid black;
 }
 
-div.slideshow .train{
+div.container div.slideshow div.train{
 	width: 10000px;
 	height: inherit;
 }
 
-div.slideshow .train > div{
+div.container div.slideshow div.train > div{
 	height: inherit;
 	float: left;
 	background-repeat: no-repeat;
