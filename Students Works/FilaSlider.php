@@ -27,10 +27,6 @@
 						foreach($images as $img){
 							$pics_arr = explode('.',$img);
 							$pic_type = end($pics_arr);
-							//$picname_start = $pics_arr[0];
-							//if($picname_start == "Fila5") echo ' 0000 ';
-							//else echo ' bye ';
-							//echo $picname_start;
 							if($pic_type == 'jpg'){
 								echo 	"<div class=\"img\" style=\"background-image:url($images_path/$img);\">
 											<div class=\"info\">
@@ -49,6 +45,7 @@
         	<h1></h1>
             <div class="pre"></div>
             <div class="next"></div>
+            <div class="footer-bar"></div>
         </div>
         <p class="footer">
             © 2012 Mampel Design. All rights reserved. SlideShow example with PHP and JavaScript and CSS3.<br />
