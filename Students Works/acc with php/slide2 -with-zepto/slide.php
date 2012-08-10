@@ -19,26 +19,15 @@
 				<?php
 					$path = '../images/gallery/';
 					$files=scandir($path);
-//					$len=0;
 					foreach($files as $file){
 						$type = explode('.',$file);
 						$type = end($type);
 						if($type == 'jpg'){
 							echo "<div style=\"background-image:url('$path/$file');\"></div>";
-//							$len++;
 						}
 					}
 				?>
 			</div>
-			<!--<div class="next"></div>
-			<div class="prev"></div>
-			<ul class="btn">
-				
-					for($i=0;$i<$len;$i++){
-						echo "<li></li>";
-					}
-				?>
-			</ul>-->
 		</div>
 	</div>
 </div>
