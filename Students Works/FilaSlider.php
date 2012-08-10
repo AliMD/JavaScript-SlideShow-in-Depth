@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Fila Slider</title>
+<title>Fila SlideShow</title>
 <link type="text/css" rel="stylesheet" href="FilaSlider.css" />
 <script type="text/javascript" src="FilaSlider.js"></script>
 </head>
@@ -50,6 +50,10 @@
             <div class="pre"></div>
             <div class="next"></div>
         </div>
+        <p class="footer">
+            © 2012 Mampel Design. All rights reserved. SlideShow example with PHP and JavaScript and CSS3.<br />
+            Mohammad Reza Shariatzadeh. Mr@Mampel.ir
+        </p>
     </div>
 </body>
 </html>
