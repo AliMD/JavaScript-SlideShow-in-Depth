@@ -26,7 +26,7 @@
 						
 						foreach($images as $img){
 							$pics_arr = explode('.',$img);
-							$pic_type = end($pics_arr);
+							$pic_type = strtolower(end($pics_arr));
 							if($pic_type == 'jpg'){
 								echo 	"<div class=\"img\" style=\"background-image:url($images_path/$img);\">
 											<div class=\"info\">
