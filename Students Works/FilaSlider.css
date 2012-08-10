@@ -26,12 +26,13 @@ div.container{
 
 div.container div.slideshow{
 	width:800px;
-	height:580px;
+	height:650px;
 	margin:10px auto 0;
 	position:relative;
 }
 
-div.slideshow div.logo{
+div.slideshow div.logo,
+div.slideshow div.footer-bar{
 	width:auto;
 	height:50px;
 	padding:0 0 0 20px;
@@ -39,7 +40,7 @@ div.slideshow div.logo{
 }
 
 div.slideshow div.logo a{
-	background-image: url(../images/logo.gif);
+	background-image: url(../images/fila_logo.gif);
 	background-position:left top;
 	background-repeat:no-repeat;
 	width: 80px;
@@ -61,11 +62,12 @@ div.slideshow div.search-box{
 }
 
 div.slideshow div.search-box > input{
-	width:106px;
+	width:100px;
+	height:10px;
 	background-color:transparent;
 	border:0;
 	font-size:11px;
-	padding:6px 0 0 7px;
+	padding:5px;
 	float:left;
 }
 
@@ -88,7 +90,7 @@ div.slideshow > h2{
 
 div.slideshow > h1{
 	border-top: 1px solid #AAA !important;
-	margin-top:20px;
+	margin:20px 0 30px 0;
 }
 
 div.slideshow div.case-train{
@@ -110,7 +112,7 @@ div.slideshow div.next{
 div.slideshow div.pre{
 	top:300px;
 	left:0px;
-	background-image:url(../images/sprite-icons.png);
+	background-image:url(../images/fila_sprite-icons.png);
 	background-repeat:no-repeat;
 	background-position:0px -1px;
 }
@@ -123,7 +125,7 @@ div.slideshow div.pre:hover{
 div.slideshow div.next{
 	top:300px;
 	right:0px;
-	background-image:url(../images/sprite-icons.png);
+	background-image:url(../images/fila_sprite-icons.png);
 	background-repeat:no-repeat;
 	background-position:-42px -2px;
 }
