@@ -2,10 +2,10 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="reset.css" />
+	<link rel="stylesheet" type="text/css" href="../reset.css" />
 	<link rel="stylesheet" type="text/css" href="slideshow.css" />
-	<script type="text/javascript" src="slideshow1.js"></script>
-	<title></title>
+	<script type="text/javascript" src="slideshow.js"></script>
+	<title>Slide Show</title>
 </head>
 <body>
 	<div class="container">
@@ -16,22 +16,26 @@
 			<div class="bgloader"></div>
 			<div class="slideshow">
 				<div class="train">
-					<div style="background-image:url('images/slide1.jpg');"></div>
-					<div style="background-image:url('images/slide2.jpg');"></div>
-					<div style="background-image:url('images/slide3.jpg');"></div>
-					<div style="background-image:url('images/slide4.jpg');"></div>
-					<div style="background-image:url('images/slide5.jpg');"></div>
-					<div style="background-image:url('images/slide6.jpg');"></div>
-					<div style="background-image:url('images/slide7.jpg');"></div>
+					<?php
+						$path= '../images/';
+						$files= scandir($path);
+						$len= 0;
+						foreach ($files as $file) {
+							$exp= explode('.',$file);
+							$type= end($exp);
+							if ($type == 'jpg'){
+								echo "<div style=\"background-image:url('$path/$file');\"></div>";
+								$len++;
+							}
+						}
+					?>
 				</div>
 				<ul class="btn">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<?php
+						for ($i=0; $i < $len; $i++){
+							echo "<li></li>";
+						}
+					?>
 				</ul>
 			</div>
 		</div>
