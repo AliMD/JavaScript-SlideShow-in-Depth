@@ -142,6 +142,7 @@ a.button small {
   display: block;
   font-size: 11px;
 }
+
 header a.button {
   position: absolute;
   right: 0;
@@ -156,7 +157,9 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
 }
-
+a.ghico{
+  background: transparent transparent url(../images/github-button.png) 0 0 no-repeat;
+}
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
