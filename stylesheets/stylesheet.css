@@ -158,7 +158,7 @@ aside a.button {
   font-size: 21px;
 }
 aside a.ghico{
-  background: transparent transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../images/github-button2.png) 0 0 no-repeat;
 }
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
