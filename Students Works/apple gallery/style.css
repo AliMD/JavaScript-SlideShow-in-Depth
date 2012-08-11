@@ -126,27 +126,26 @@ div.train > div.pic5 > p{
 div.slideshow div.previous{
 	background-image:url('images/previous.jpg');
 	background-repeat:no-repeat;
-	background-position:center left;
+	background-position:10px center;
 	width:130px;
 	height:630px;
 	cursor:pointer;
-	position:absolute;
 	opacity:0;
+	position:absolute;
 	top:15px;
-	left:7%;
 	-webkit-transition :opacity 500ms;
 }
 div.slideshow div.next{
 	background-image:url('images/next.jpg');
 	background-repeat:no-repeat;
-	background-position:center right;
+	background-position:78px center;
 	width:130px;
 	height:630px;
 	cursor:pointer;
 	position:absolute;
+	margin-left:995px;
 	opacity:0;
 	top:15px;
-	right:7%;
 	-webkit-transition :opacity 500ms;
 }
 div.slideshow div.previous:hover,
