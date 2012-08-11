@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+* {
+	margin:0;
+	padding:0;	
+}
+
+body {
+	background-color:#303030;	
+}
+
+div.container {
+	width:980px;
+	min-height:500px;
+	margin:auto;
+}
+
+div.slider {
+	width:800px;
+	height:550px;
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+	margin-top:50px;
+}
+
+div.bgslide {
+	background-color:black;
+	width:800px;
+	height:550px;
+	border-radius:5px;
+}
+
+div.slides {
+	width:7000px;
+	height:438px;	
+	float:left;
+	position:absolute;
+	margin-top:20px;
+	transition:all 2s;
+	-moz-transition:all 2s;
+	-webkit-transition:all 2s;
+	-o-transition:all 2s;
+	-ms-transition:all 2s;	
+}
+
+div.slides div {
+	width:800px;
+	height:inherit;
+	float:left;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+div.back, div.next, div.pause, div.play {
+	width:30px;
+	height:30px;
+	position:absolute;
+	cursor:pointer;
+	top:490px;
+	opacity:0;
+	-webkit-transition:opacity 1s;
+}
+
+div.back {
+	background-image:url('image/back.png');
+	background-repeat:no-repeat;
+	left:50px;	
+}
+
+div.next {
+	background-image:url('image/next.png');
+	background-repeat:no-repeat;
+	right:50px;
+}
+
+div.pause {
+	background-image:url('image/pause.png');
+	background-repeat:no-repeat;
+	right:150px;	
+}
+
+div.play {
+	background-image:url('image/play.png');
+	background-repeat:no-repeat;
+	right:110px;	
+}
+
+div.slider:hover div.back, div.slider:hover div.next, div.slider:hover div.pause, div.slider:hover div.play {
+	opacity:1;	
+}
+
+ul.btns {
+	cursor:pointer;	
+	list-style-type:none;
+	width:700px;
+	margin-left:100px;
+}
+
+ul.btns li {
+	float:left;
+	margin-right:14px;
+	margin-top:580px;
+	border:solid 2px #FCAF17;
+	width:100px;
+	height:60px;
+	border-radius:5px;
+	opacity:0.5;
+	transition:all 2s;
+	-moz-transition:all 21s;
+	-webkit-transition:all 2s;
+	-o-transition:all 2s;
+	-ms-transition:all 2s;	
+}
+
+div.slider:hover ul.btns li {
+	margin-top:475px;
+	box-shadow:0 0 10px 2px #0F4E62;
+	background-color:#727272;
+	transition:all 1s;
+	-moz-transition:all 2s;
+	-webkit-transition:all 2s;
+	-o-transition:all 2s;
+	-ms-transition:all 2s;	
+}
+
+div.slider:hover ul.btns li.active {
+	opacity:1;
+	box-shadow:0 0 10px 2px #0F4E62;
+	background-color:#727272;
+	transition:all 1s;
+	-moz-transition:all 1s;
+	-webkit-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;	
+}
