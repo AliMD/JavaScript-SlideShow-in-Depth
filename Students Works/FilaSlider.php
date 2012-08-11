@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <title>Fila SlideShow</title>
 <link type="text/css" rel="stylesheet" href="FilaSlider.css" />
 <script type="text/javascript" src="FilaSlider.js"></script>
