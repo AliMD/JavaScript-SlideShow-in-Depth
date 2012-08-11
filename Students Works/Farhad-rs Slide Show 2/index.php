@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<title>New Design For Slider</title>
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="script.js"></script>
