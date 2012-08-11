@@ -72,7 +72,8 @@ div.train > div.pic2 > img:nth-child(1){
 	margin:0 435px;
 	margin-top:15px;
 }
-div.train > div.pic2 > div{
+div.train > div.pic2 > div,
+div.train > div.pic3 > div{
 	margin:0 auto;
 	height:45px;
 	width:300px;	
@@ -81,30 +82,20 @@ div.train > div.pic2 > div{
 	color:#666;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
-div.train > div.pic2 > img:nth-child(3){
+div.train > div.pic2 > img:nth-child(3),
+div.train > div.pic3 > img:nth-child(3){
 	margin:17px 80px;	
 }
 div.train > div.pic3 > img:nth-child(1){
 	margin:0 400px;
 	margin-top:15px;
 }
-div.train > div.pic3 > div{
-	margin:0 auto;
-	height:45px;
-	width:380px;	
-	text-align:center;
-	font-size:18px;
-	color:#666;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-}
-div.train > div.pic3 > img:nth-child(3){
-	margin:17px 80px;	
-}
 div.train > div.pic4 > img:nth-child(1){
 	margin:0 310px;
 	margin-top:15px;
 }
-div.train > div.pic4 > div{
+div.train > div.pic4 > div,
+div.train > div.pic5 > div{
 	margin:0 auto;
 	height:45px;
 	width:405px;
@@ -118,15 +109,6 @@ div.train > div.pic4 > img:nth-child(3){
 }
 div.train > div.pic5 > img:nth-child(1){
 	margin:10px 420px;
-}
-div.train > div.pic5 > div{
-	margin:0 auto;
-	height:45px;
-	width:405px;
-	text-align:center;
-	font-size:18px;
-	color:#666;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 div.train > div.pic5 > img:nth-child(3){
 	margin:10px 0;
