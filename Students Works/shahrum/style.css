@@ -1,0 +1,96 @@
+.container{
+	width:950px;
+	margin:0 auto;
+}
+
+.slideshow{
+	width:450px;
+	height:300px;
+	overflow: hidden;
+
+}
+
+.train{
+	width:9000px;
+	height:300px;
+	-webkit-transition: left 400ms;
+
+}
+
+.train > div{
+	float: left;
+	width:450px;
+	height:300px;
+}
+
+div.train div.img1{
+	background-image: url('images/pic1.jpg');
+}
+
+div.train div.img2{
+	background-image: url('images/pic2.jpg');
+}
+
+div.train div.img3{
+	background-image: url('images/pic3.jpg');
+}
+
+div.train div.img4{
+	background-image: url('images/pic4.jpg');
+}
+
+div.train div.img5{
+	background-image: url('images/pic5.jpg');
+}
+
+div.next{
+	position: absolute;
+	top:200px;
+	right:20px;
+	width:10px;
+	height:10px;
+}
+
+div.pre{
+	position: absolute;
+	top:200px;
+	left:20px;
+	width:10px;
+	height: 10px;
+
+}
+
+ul.btns{
+	position: absolute;
+	width:180px;
+	bottom:50px;
+	left:430px;
+}
+
+ul.btns li{
+	width:18px;
+	height: 18px;
+	border-radius:3px;
+	float: left;
+	margin-right:10px;
+	background-color: #444;
+
+
+}
+
+ul.btns li:hover,ul.btns li.active{
+	background-color: #;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
