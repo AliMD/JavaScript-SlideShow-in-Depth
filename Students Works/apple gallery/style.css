@@ -9,7 +9,7 @@ div.background{
 	padding-top:1px;
 }
 div.background div.bordert{
-	width:950px;
+	width:970px;
 	height:15px;
 	margin:0 auto;
 	border-bottom:1px solid #ddd;
@@ -35,10 +35,10 @@ div.container div.slideshow{
 div.slideshow div.train{
 	width:10000px;
 	height:inherit;
-	-webkit-transition : margin-left 800ms ease-in-out;
-	-moz-transition : margin-left 800ms ease-in-out;
-	-o-transition : margin-left 800ms ease-in-out;
-	-ms-transition : margin-left 800ms ease-in-out;
+	-webkit-transition : margin-left 400ms ease-in-out;
+	-moz-transition : margin-left 400ms ease-in-out;
+	-o-transition : margin-left 400ms ease-in-out;
+	-ms-transition : margin-left 8400ms ease-in-out;
 }
 div.slideshow div.train > div{
 	width:1120px;
@@ -64,7 +64,7 @@ div.slideshow div.train > div.pic1 > div > img:nth-child(1){
 	margin:25px 33px;
 }
 div.slideshow div.train > div.pic2 > img:nth-child(1){
-	margin:0 435px;
+	margin-left:455px;
 	margin-top:15px;
 }
 div.slideshow div.train > div.pic2 > div{
@@ -87,21 +87,21 @@ div.slideshow div.train > div.pic3 > div{
 }
 div.slideshow div.train > div.pic2 > img:nth-child(3),
 div.slideshow div.train > div.pic3 > img:nth-child(3){
-	margin:17px 80px;	
+	margin:17px 100px;	
 }
 div.slideshow div.train > div.pic3 > img:nth-child(1){
-	margin:0 400px;
+	margin-left:420px;
 	margin-top:15px;
 }
 div.slideshow div.train > div.pic4 > img:nth-child(1){
-	margin:0 310px;
+	margin-left:325px;
 	margin-top:15px;
 }
 div.slideshow div.train > div.pic4 > div,
-div.slideshow div.train > div.pic5 > div{
+div.slideshow div.train > div.pic5 > div:nth-child(2){
 	margin:0 auto;
 	height:45px;
-	width:405px;
+	width:415px;
 	text-align:center;
 	font-size:18px;
 	color:#666;
@@ -114,7 +114,7 @@ div.slideshow div.train > div.pic5 > img:nth-child(1){
 	margin:10px 440px;
 }
 div.slideshow div.train > div.pic5 > img:nth-child(3){
-	margin:10px 0;
+	margin-top:30px;
 }
 div.slideshow div.train > div.pic5 > div:nth-child(4){
 	margin:10px auto;
