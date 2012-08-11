@@ -50,7 +50,6 @@ div.slideshow div.train > div.pic1{
 	margin-left:0;	
 }
 div.slideshow div.train > div.pic1 > img{
-	margin-left:-365px;
 	margin-top:10px;
 	float:left;
 }
@@ -84,7 +83,6 @@ div.slideshow div.train > div.pic3 > div{
 	text-align:center;
 	font-size:18px;
 	color:#666;
-	border:1px solid red;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 div.slideshow div.train > div.pic2 > img:nth-child(3),
@@ -117,7 +115,6 @@ div.slideshow div.train > div.pic5 > img:nth-child(1){
 }
 div.slideshow div.train > div.pic5 > img:nth-child(3){
 	margin:10px 20px;
-	width:1080px;
 }
 div.slideshow div.train > div.pic5 > p{
 	margin:-30px auto;
@@ -142,12 +139,12 @@ div.slideshow div.previous{
 div.slideshow div.next{
 	background-image:url('images/next.jpg');
 	background-repeat:no-repeat;
-	background-position:78px center;
+	background-position:80px center;
 	width:130px;
 	height:630px;
 	cursor:pointer;
 	position:absolute;
-	margin-left:995px;
+	margin-left:992px;
 	opacity:0;
 	top:15px;
 	-webkit-transition :opacity 500ms;
@@ -179,5 +176,5 @@ div.container ul.btns li:hover{
 	background-color:rgb(205,205,205);
 }
 div.container ul.btns li.active{
-	background-color:rgb(68,178,233);
+	background-color:rgb(42,161,221);
 }
