@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 body {
 	background-color:#303030;	
 }
@@ -58,25 +56,25 @@ div.back, div.next, div.pause, div.play {
 }
 
 div.back {
-	background-image:url('image/back.png');
+	background-image:url('../../images/farhad-image/back.png');
 	background-repeat:no-repeat;
 	left:50px;	
 }
 
 div.next {
-	background-image:url('image/next.png');
+	background-image:url('../../images/farhad-image/next.png');
 	background-repeat:no-repeat;
 	right:50px;
 }
 
 div.pause {
-	background-image:url('image/pause.png');
+	background-image:url('../../images/farhad-image/pause.png');
 	background-repeat:no-repeat;
 	right:150px;	
 }
 
 div.play {
-	background-image:url('image/play.png');
+	background-image:url('../../images/farhad-image/play.png');
 	background-repeat:no-repeat;
 	right:110px;	
 }
