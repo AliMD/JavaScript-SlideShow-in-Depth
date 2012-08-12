@@ -5,6 +5,7 @@
 	<title>07 Dynamic images +php - Ali.MD JavaScript SlideShow in Depth</title>
 	<link rel="stylesheet" type="text/css" href="../reset.css" />
 	<link rel="stylesheet" type="text/css" href="slideshow.css" />
+	<script type="text/javascript" src="../zepto.js" ></script>
 	<script type="text/javascript" src="slideshow.js" ></script>
 </head>
 <body>
