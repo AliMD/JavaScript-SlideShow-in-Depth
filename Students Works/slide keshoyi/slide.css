@@ -1,0 +1,25 @@
+div.container{
+	width:990px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+div.slide{
+	width:920px;
+	height:350px;
+	margin:80px auto 0;
+	overflow:hidden;
+	position:relative;
+}
+
+div.slide div.train{
+	width:1000px;
+	height:inherit;
+}
+div.slide div.train > div{
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left top;
+	cursor:pointer;
+}
