@@ -26,8 +26,14 @@ $(function(){
 	var autoPlayIv=false;
 	(autoPlayStart = function(){
 		if(autoPlayIv) return;
-		setInterval(nextSlide,5000);
-	})
+		autoPlayIv=setInterval(nextSlide,5000);
+	})();
+	autoPlayStop=function () {
+		clearInterval(autoPlayIv);
+		autoPlayIv=false;
+	}
+	slideshow.onmouseover(autoPlayStop);
+	slideshow.onmouseout(autoPlayStart)
 
 };
 
