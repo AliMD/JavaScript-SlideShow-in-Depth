@@ -10,21 +10,14 @@ $(function(){
 		btns.eq(n).addClass('active');
 		currentSlide=n;
 
-	})
-}())
-
-
-
-
-	(go2Slide=function(n){
-		if(n>btns.length-1) n=0;
-		if(n<0) n=btns.length-1;
-		train.style.left=(-picwidth*n)+'px';
-		btns.item(currentSlide).className='';
-		btns.item(n).className='active';
-		currentSlide=n;
-
 	})(0);
+}())
+	btns.click(function(){
+		go2Slide($(this).index());
+	})
+
+
+
 	nextSlide=function () {
 		go2Slide(currentSlide+1);
 	}
