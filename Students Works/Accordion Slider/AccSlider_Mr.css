@@ -64,8 +64,53 @@ div.slideshow div.train > div div.bg-slide{
 
 div.slideshow div.train > div div.description{
 	width: 480px;
-	height: 175px;
+	height: 190px;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
 }
+
+div.slideshow div.train > div div.description h2{
+	text-transform:uppercase;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:45px;
+	color:#444;
+	text-align: left;
+	margin:0px 0px 15px 20px;
+	text-shadow:-1px -1px 1px #CCC;
+}
+
+div.slideshow div.train > div div.description p{
+	margin:10px 22px;
+	font-family:"Trebuchet MS",Arial, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	font-weight:normal;
+	text-transform:none;
+	letter-spacing:normal;
+	line-height:18px;
+}
+
+div.slideshow div.train > div div.description a{
+	position:absolute;
+	bottom:13px;
+	left:24px;
+	text-transform:uppercase;
+	font-style:normal;
+	font-size:11px;
+	text-decoration:none;
+	color:#888;
+}
+
+
+
+
+
+
+
+
+
+
+
