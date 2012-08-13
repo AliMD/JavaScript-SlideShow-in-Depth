@@ -15,7 +15,7 @@ div.slideshow{
 	overflow: hidden;
 }
 
-div.train{
+div.slideshow div.train{
 	width:9000px;
 	height: 660px;
 	position: absolute;
@@ -23,34 +23,34 @@ div.train{
 
 }
 
-div.train > div{
+div.slideshow div.train > div{
 	float: left;
 	background-position:left top;
 	width:1000px;
 	height:660px;
 }
 
-div.train div.img1{
+div.slideshow div.train div.img1{
 	background-image: url('images/broken-home_.jpg');
 }
 
-div.train div.img2{
+div.slideshow div.train div.img2{
 	background-image: url('images/haunted-mansion.jpg');
 }
 
-div.train div.img3{
+div.slideshow div.train div.img3{
 	background-image: url('images/serenity2.jpg');
 }
 
-div.train div.img4{
+div.slideshow div.train div.img4{
 	background-image: url('images/classroom.jpg');
 }
 
-div.train div.img5{
+div.slideshow div.train div.img5{
 	background-image: url('images/old-barn.jpg');
 }
 
-div.next{
+div.slideshow div.next{
 	position: absolute;
 	right:0;
 	top:0;
@@ -60,7 +60,7 @@ div.next{
 	height:660px;
 }
 
-div.previous{
+div.slideshow div.previous{
 	position: absolute;
 	left:0;
 	top:0;
@@ -70,14 +70,14 @@ div.previous{
 	height:660px;
 }
 
-ul.btns{
+div.slideshow ul.btns{
 	position: absolute;
 	width:180px;
 	bottom:50px;
 	left:430px;
 }
 
-ul.btns li{
+div.slideshow ul.btns li{
 	width:18px;
 	height: 18px;
 	border-radius:3px;
@@ -88,7 +88,7 @@ ul.btns li{
 	opacity: 0.7;
 }
 
-ul.btns li:hover,ul.btns li.active{
+div.slideshow ul.btns li:hover,ul.btns li.active{
 	border:3px solid rgb(102,217,239);
 }
 
