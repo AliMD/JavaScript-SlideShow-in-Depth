@@ -1,4 +1,10 @@
 
+*{border:0 !important;}
+
+body{
+	background-color:#CCC;
+}
+
 div.container{
 	width:980px;
 	height:700px;
@@ -8,15 +14,16 @@ div.container{
 
 div.container div.slideshow{
 	width:825px;
-	height:490px; /* 480 */
+	height:495px;/*480px*/
 	margin:50px auto 0;
 	position:relative;
+	overflow:hidden;
 	border:1px solid red;
 }
 
 div.slideshow div.train{
 	width:1300px;
-	height:480px;
+	height:495px; /*480px*/
 	position:absolute;
 	top:0;
 	right:0;
@@ -30,24 +37,31 @@ div.slideshow div.train > div{
 	background-position:right top;
 	position:relative;
 	border:1px solid blue;
+	border: 2px solid white !important;
+	box-shadow: 1px 3px 15px #555;
+	-webkit-box-shadow: 1px 3px 15px #555;
+	-moz-box-shadow: 1px 3px 15px #555;
+	-o-box-shadow: 1px 3px 15px #555;
+	-ms-box-shadow: 1px 3px 15px #555;
+
 }
 
 div.slideshow div.train > div div.header{
-	width:auto;
+	width:100%;
 	height:30px;
 	line-height:30px;
-	margin-top: 60px;
-	padding: 10px;
-	background-color: white;
-	opacity: 0.9;
-	text-transform: uppercase;
-	font-style: normal;
-	font-weight: bold;
-	letter-spacing: 1px;
-	font-size: 14px;
-	color: #444;
-	text-align: center;
-	text-shadow: -1px -1px 1px #CCC;
+	margin-top:60px;
+	padding:10px;
+	background-color:white;
+	opacity:0.9;
+	text-transform:uppercase;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:14px;
+	color:#444;
+	text-align:center;
+	text-shadow:-1px -1px 1px #CCC;
 }
 
 div.slideshow div.train > div div.bg-slide{
@@ -59,30 +73,37 @@ div.slideshow div.train > div div.bg-slide{
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	/*display: none;	*/
 }
 
-div.slideshow div.train > div div.description{
-	width: 480px;
-	height: 190px;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
+div.slideshow div.train > div div.overflow{
+	width:480px;
+	height:190px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	overflow:hidden;
+	border:1px solid green;
 }
 
-div.slideshow div.train > div div.description h2{
+div.train > div div.overflow div.description{
+	width:480px;
+	height:190px;
+	border:1px solid orange;
+}
+
+div.train > div div.overflow div.description h2{
 	text-transform:uppercase;
 	font-style:normal;
 	font-weight:bold;
 	letter-spacing:1px;
-	font-size:45px;
+	font-size:40px;
 	color:#444;
 	text-align: left;
 	margin:0px 0px 15px 20px;
 	text-shadow:-1px -1px 1px #CCC;
 }
 
-div.slideshow div.train > div div.description p{
+div.train > div div.overflow div.descriptionn p{
 	margin:10px 22px;
 	font-family:"Trebuchet MS",Arial, sans-serif;
 	font-size:12px;
@@ -93,7 +114,7 @@ div.slideshow div.train > div div.description p{
 	line-height:18px;
 }
 
-div.slideshow div.train > div div.description a{
+div.train > div div.overflow div.description a{
 	position:absolute;
 	bottom:13px;
 	left:24px;
@@ -103,7 +124,6 @@ div.slideshow div.train > div div.description a{
 	text-decoration:none;
 	color:#888;
 }
-
 
 
 
