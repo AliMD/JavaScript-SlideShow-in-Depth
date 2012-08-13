@@ -4,7 +4,8 @@ $(document).ready(function() {
 	
 	slides = $('div.slideshow div.train > div');
 	slides.css({width:slidesWidth + 'px'});
-	slides.last().css({'padding-right':'200px'});
+	slides.css({'background-position':'center top'});
+	slides.last().css({'background-position':'right top', 'padding-right':'200px'});
 	
 	slides.mouseover(function(){
 		slides.animate({width:'115px'},500);
@@ -12,7 +13,7 @@ $(document).ready(function() {
 	});
 	
 	$('div.slideshow').mouseout(function(){
-		slides.animate({width:slidesWidth + 'px'});	
+		slides.animate({width:slidesWidth + 'px'},500);	
 	});
 	
 });
