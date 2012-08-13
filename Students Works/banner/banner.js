@@ -1,8 +1,21 @@
-var picwidth=1000;
-window.onload=function() {
-	var train=document.getElementsByClassName('slideshow').item(0).getElementsByClassName('train').item(0),
-	btns=document.getElementsByClassName('slideshow').item(0).getElementsByClassName('btns').item(0).getElementsByTagName('li'),
-	currentSlide=0;
+$(function(){
+	var train=$('div.slideshow div.train'),
+	btns=$('div.slideshow ul.btns li'),
+	currentSlide=0,picwidth=1000;
+	(go2Slide=function(n){
+		if(n>btns.length-1) n=0;
+		if(n<0) n=btns.length-1;
+		train.css({left:-picwidth*n+'px'});
+		btns.eq(currentSlide).removeClass('active');
+		btns.eq(n).addClass('active');
+		currentSlide=n;
+
+	})
+}())
+
+
+
+
 	(go2Slide=function(n){
 		if(n>btns.length-1) n=0;
 		if(n<0) n=btns.length-1;
