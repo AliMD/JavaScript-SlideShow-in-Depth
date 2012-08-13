@@ -4,11 +4,12 @@
 }
 
 a img{
-    border:none;
+    border:0 none;
 }
 
 a, a:active{
-    border:none;
+    border:0 none;
+	outline:0 none;
 }
 
 body{
@@ -38,7 +39,7 @@ div.slideshow div.footer-bar{
 }
 
 div.slideshow div.logo a{
-	background-image: url(../images/fila_logo.gif);
+	background-image: url(../../images/fila_logo.gif);
 	background-position:left top;
 	background-repeat:no-repeat;
 	width: 80px;
@@ -54,7 +55,7 @@ div.slideshow div.search-box{
 	height:20px;
 	float:right;
 	margin:15px 10px 0 0;
-	background-image:url(../images/fila_background_search.gif);
+	background-image:url(../../images/fila_background_search.gif);
 	background-repeat:no-repeat;
 	background-position:right top;
 }
@@ -110,7 +111,7 @@ div.slideshow div.next{
 div.slideshow div.pre{
 	top:300px;
 	left:0px;
-	background-image:url(../images/fila_sprite-icons.png);
+	background-image:url(../../images/fila_sprite-icons.png);
 	background-repeat:no-repeat;
 	background-position:0px -1px;
 }
@@ -123,7 +124,7 @@ div.slideshow div.pre:hover{
 div.slideshow div.next{
 	top:300px;
 	right:0px;
-	background-image:url(../images/fila_sprite-icons.png);
+	background-image:url(../../images/fila_sprite-icons.png);
 	background-repeat:no-repeat;
 	background-position:-42px -2px;
 }
@@ -203,7 +204,7 @@ div.info > a{
 	text-align: center;
 	line-height:30px; /* with this way whole text in div display in center as top-bottom and right-left (line-height==height of div and text-align=center)*/ 
 	text-transform: uppercase;
-	background-image:url(../images/fila_bg_info_a.png);
+	background-image:url(../../images/fila_bg_info_a.png);
 }
 
 div.container p.footer{
