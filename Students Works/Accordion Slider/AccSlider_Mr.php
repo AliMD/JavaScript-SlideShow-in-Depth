@@ -5,6 +5,8 @@
 <title>Accordion Slider</title>
 <link type="text/css" rel="stylesheet" href="../../reset.css" />
 <link type="text/css" rel="stylesheet" href="AccSlider_Mr.css" />
+<script type="text/javascript" src="../../zepto.js" ></script>
+<script type="text/javascript" src="AccSlider_Mr.js" ></script>
 </head>
 
 <body>
