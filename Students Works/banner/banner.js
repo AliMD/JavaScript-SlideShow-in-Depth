@@ -14,23 +14,15 @@ $(function(){
 }())
 	btns.click(function(){
 		go2Slide($(this).index());
-	})
-
-
-
-	nextSlide=function () {
+	});
+	$('div.slideshow div.next').click(function(){
 		go2Slide(currentSlide+1);
-	}
-	preSlide=function () {
+	});
+	$('div.slideshow div.previous').click(function(){
 		go2Slide(currentSlide-1);
-	}
-	for(i=0;i<btns.length;i++){
-		(function(j){
-			btns.item(j).onclick=function(){
-				go2Slide(j);
-			}
-		})(i);
-	}
+	});
+
+	
 	setInterval(nextSlide,5000);
 };
 
