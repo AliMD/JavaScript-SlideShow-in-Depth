@@ -1,0 +1,91 @@
+body{
+	background-color:black;
+}
+div.container{
+	width       : 980px;
+	margin      : auto;
+	margin-top: 100px;
+	padding-top : 1px;
+	background-color: black;
+	border: 1px solid grey;
+	border-radius:5px;
+}
+div.slide{
+	width:450px;
+	height:325px;
+	margin: 30px auto 0;
+	overflow: hidden;
+	position: relative;
+	background-image    : url('images/loading.gif');
+	background-position	: center center;
+	background-repeat	: no-repeat;
+}
+div.slide div.train{
+	width:5000px;
+	height:300px;
+	position: absolute;
+	left:0;
+	top:0;
+	-webkit-transition : left 800ms ease-in-out;
+}
+div.slide div.train > div{
+	width:450px;
+	height:inherit;
+	float: left;
+	border-radius:6px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position : left top;
+}
+div.slide ul.btns{
+	height:15px;
+	border-radius:50%;
+	list-style-type: none;
+	position: absolute;
+	left:300px;
+	bottom:15px;
+}
+div.slide ul.btns li{
+	float: left;
+	margin-right: 5px;
+	width:15px;
+	height:15px;
+	cursor: pointer;
+	-webkit-transition : all 500ms;
+	background-color: lightseagreen;
+	border-radius:50%;
+}
+div.slide ul.btns li:hover,
+div.slide ul.btns li.active{
+	height           : 16px;
+	margin-top       : -6px;
+	background-color : darkgreen;
+	-webkit-transition-duration : 500ms;
+}
+
+div.slide div.previous,
+div.slide div.next{
+	position : absolute;
+	top      : 135px;
+	width    : 30px;
+	height   : 30px;
+	opacity  : 0;
+	cursor   : pointer;
+	background-image   : url('images/arrow.png');
+	background-repeat  : no-repeat;
+	-webkit-transition : opacity 500ms;
+}
+
+div.slide:hover div.previous,
+div.slide:hover div.next{
+	opacity : 1;
+}
+
+div.slide div.previous{
+	background-position : 0px 0px;
+	left : 10px;
+}
+div.slide div.next{
+	right : 10px;
+	background-position : -30px 0px;
+}
