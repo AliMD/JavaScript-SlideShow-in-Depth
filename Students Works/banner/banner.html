@@ -30,11 +30,11 @@
 			<div class="next" onclick="nextSlide();"></div>
 			<div class="previous" onclick="preSlide();"></div>
 			<ul class="btns">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<?php
+					for($i=0;$i<$img_length;$i++){
+						echo "<li></li>";
+					}
+				?>
 			</ul>
 		</div>
 	</div>
