@@ -1,4 +1,4 @@
-$(function(){
+$(function(){  // means document ready and document ready means that after loading htmls and befor loadnig images
 	var slideshow=$('div.slideshow'),
 	train=$('div.slideshow div.train'),
 	btns=$('div.slideshow ul.btns li'),
