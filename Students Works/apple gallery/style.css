@@ -125,7 +125,7 @@ div.slideshow div.train > div.pic5 > div:nth-child(4){
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 div.slideshow div.previous{
-	background-image:url('images/previous.jpg');
+	background-image:url('../../images/apple gallery/previous.jpg');
 	background-repeat:no-repeat;
 	background-position:10px center;
 	width:130px;
@@ -137,7 +137,7 @@ div.slideshow div.previous{
 	-webkit-transition :opacity 500ms;
 }
 div.slideshow div.next{
-	background-image:url('images/next.jpg');
+	background-image:url('../../images/apple gallery/next.jpg');
 	background-repeat:no-repeat;
 	background-position:80px center;
 	width:130px;
