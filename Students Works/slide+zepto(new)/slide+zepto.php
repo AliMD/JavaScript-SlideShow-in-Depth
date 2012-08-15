@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
 <link type="text/css" rel="stylesheet" href="slide.css" />
-<script type="text/javascript" src="../zepto.js" ></script>
+<script type="text/javascript" src="../../zepto.js" ></script>
 <script type="text/javascript" src="slide.js" ></script>
 
 </head>
