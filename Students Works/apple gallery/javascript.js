@@ -26,7 +26,7 @@ $(function() {
 	});
 	(autoPlayStart = function(){
 		if(autoPlayIv) return ;
-		autoPlayIv = setInterval(nextSlide, 5000);
+		autoPlayIv = setInterval(nextSlide, 7000);
 	})();
 
 	autoPlayStop = function(){
