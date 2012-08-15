@@ -26,8 +26,8 @@
 					?>
 				</div>
 				<div class="back"></div>
-				<div class="pause"></div>
-				<div class="play"></div>
+				<!--<div class="pause"></div>
+				<div class="play"></div>-->
 				<div class="next"></div>
 				<ul class="btns">
 					<?php
