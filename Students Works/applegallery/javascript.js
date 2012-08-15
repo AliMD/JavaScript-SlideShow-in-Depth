@@ -1,10 +1,10 @@
 $(function() {
 	var train = $('div.slideshow div.train'),
-		lists = $('div.container ul.btns li'),
-		currentSlide=0,
-		autoPlayIv=false;
+		lists = $('div.container ul.btns li')
+		currentSlide = 0,
+		autoPlayIv = false;
 	
-	go2slide = function(n){
+	(go2slide = function(n){
 		if(n>lists.length-1) n=0;
 		if(n<0) n = lists.length-1;
 		train.animate({
@@ -13,9 +13,9 @@ $(function() {
 		lists.eq(currentSlide).removeClass('active');
 		lists.eq(n).addClass('active');
 		currentSlide=n;
-	}
+	})(0);
 	lists.click(function(){
-		go2slide($(this).index());	
+		go2slide( $(this).index() );	
 	});
 	$('div.slideshow div.next').click(nextSlide = function(){
 		go2slide(currentSlide+1);	
