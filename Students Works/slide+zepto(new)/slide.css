@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#fff;
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+	padding-top:1px;
+}
+
+div.slide{
+	width:920px;
+	position:relative;
+}
+
+div.scroll{
+	width:900px;
+	height:460px;
+	margin:150px auto 0;
+	overflow:hidden;
+	position:relative;
+}
+
+div.scroll .bg-button{
+	width:900px;
+	margin:auto;
+	height:55px;
+
+	position:absolute;
+	top:385px;
+	z-index:-1;
+
+	background-image:url('../images/slidezepto(new)/shadow.png');
+	background-position:100% 100%;
+	background-repeat:no-repeat;
+}
+
+div.scroll div.train{
+	width:10000px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+	-webkit-transition:left 1s;
+	-moz-transition:left 1s;
+}
+
+div.scroll div.train > div{
+	width:900px;
+	height:inheri;
+	border-radius:5px;
+	float:left;
+	
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:cover;
+}
+
+div.scroll div.train > div  div{
+	position:absolute;
+	top:450px;
+	width:250px;
+}
+
+div.scroll div.train > div  div.pic{
+	top:225px;
+	-webkit-transition-duration:3s;
+}
+
+div.slide div.next,div.prev{
+	position:absolute;
+	top:180px;
+	width:78px;
+	height:117px;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+
+div.slide div.prev{
+	background-image:url('../images/slidezepto(new)/left-arrow.png');
+}
+
+div.slide div.next{
+	right:-40px;
+	background-image:url('../images/slidezepto(new)/right-arrow.png');
+}
+
+div.scroll ul.btn{
+	list-style:none;
+	width:100px;
+	height:12px;
+	position:absolute;
+	bottom:50px;
+	right:400px;
+}
+
+div.scroll ul.btn li{
+	background-color:transparent;
+	margin-right:8px;
+	float:left;
+	width:8px;
+	height:8px;
+	cursor:pointer;
+	
+	-webkit-transition:all 1200ms;
+	-moz-transition:all 1200ms;
+	-ms-transition:all 1200ms;
+	transition:all 1200ms;
+	
+	-webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+    border-radius: 9px;
+	border:1px solid #fff;
+}
+
+div.scroll ul.btn li:hover,
+div.scroll ul.btn li.active{
+	background-color:#fff;
+	
+	-webkit-transition-duration:300ms;
+	-moz-transition-duration:300ms;
+}
