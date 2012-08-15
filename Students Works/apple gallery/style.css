@@ -1,0 +1,180 @@
+body{
+	background-color:#eee;
+}
+div.background{
+	width:1120px;
+	height:735px;
+	background-color:white;	
+	margin:0 auto;
+	padding-top:1px;
+}
+div.background div.bordert{
+	width:970px;
+	height:15px;
+	margin:0 auto;
+	border-bottom:1px solid #ddd;
+}
+div.background div.borderb{
+	width:880px;
+	height:15px;
+	margin:0 auto;
+	border-top:1px solid #ddd;
+}
+div.background div.container{
+	width:1120px;
+	height:670px;
+	margin:0 auto;
+}
+div.container div.slideshow{
+	width:1120px;
+	height:630px;
+	margin-top:15px;
+	overflow:hidden;
+}
+
+div.slideshow div.train{
+	width:10000px;
+	height:inherit;
+	-webkit-transition : margin-left 400ms ease-in-out;
+	-moz-transition : margin-left 400ms ease-in-out;
+	-o-transition : margin-left 400ms ease-in-out;
+	-ms-transition : margin-left 8400ms ease-in-out;
+}
+div.slideshow div.train > div{
+	width:1120px;
+	height:630px;
+	float:left;
+	margin-left:20px;
+}
+div.slideshow div.train > div.pic1{
+	margin-left:0;	
+}
+div.slideshow div.train > div.pic1 > img{
+	margin-top:10px;
+	float:left;
+}
+div.slideshow div.train > div.pic1 > div{
+	width:440px;
+	height:450px;
+	float:left;
+	margin-left:-30px;
+	margin-top:80px;
+}
+div.slideshow div.train > div.pic1 > div > img:nth-child(1){
+	margin:25px 33px;
+}
+div.slideshow div.train > div.pic2 > img:nth-child(1){
+	margin-left:455px;
+	margin-top:15px;
+}
+div.slideshow div.train > div.pic2 > div{
+	margin:0 auto;
+	height:45px;
+	width:300px;	
+	text-align:center;
+	font-size:18px;
+	color:#666;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+div.slideshow div.train > div.pic3 > div{
+	margin:0 auto;
+	height:45px;
+	width:400px;	
+	text-align:center;
+	font-size:18px;
+	color:#666;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+div.slideshow div.train > div.pic2 > img:nth-child(3),
+div.slideshow div.train > div.pic3 > img:nth-child(3){
+	margin:17px 100px;	
+}
+div.slideshow div.train > div.pic3 > img:nth-child(1){
+	margin-left:420px;
+	margin-top:15px;
+}
+div.slideshow div.train > div.pic4 > img:nth-child(1){
+	margin-left:325px;
+	margin-top:15px;
+}
+div.slideshow div.train > div.pic4 > div,
+div.slideshow div.train > div.pic5 > div:nth-child(2){
+	margin:0 auto;
+	height:45px;
+	width:415px;
+	text-align:center;
+	font-size:18px;
+	color:#666;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+div.slideshow div.train > div.pic4 > img:nth-child(3){
+	margin:17px 160px;	
+}
+div.slideshow div.train > div.pic5 > img:nth-child(1){
+	margin:10px 440px;
+}
+div.slideshow div.train > div.pic5 > img:nth-child(3){
+	margin-top:30px;
+}
+div.slideshow div.train > div.pic5 > div:nth-child(4){
+	margin:10px auto;
+	height:15px;
+	width:200px;
+	font-size:10px;
+	color:#aaa;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+div.slideshow div.previous{
+	background-image:url('../../images/apple gallery/previous.jpg');
+	background-repeat:no-repeat;
+	background-position:10px center;
+	width:130px;
+	height:630px;
+	cursor:pointer;
+	opacity:0;
+	position:absolute;
+	top:15px;
+	-webkit-transition :opacity 500ms;
+}
+div.slideshow div.next{
+	background-image:url('../../images/apple gallery/next.jpg');
+	background-repeat:no-repeat;
+	background-position:80px center;
+	width:130px;
+	height:630px;
+	cursor:pointer;
+	position:absolute;
+	margin-left:992px;
+	opacity:0;
+	top:15px;
+	-webkit-transition :opacity 500ms;
+}
+div.slideshow div.previous:hover,
+div.slideshow div.next:hover{
+	opacity : 1;
+}
+div.container ul.btns{
+	width:80px;
+	height:10px;
+	margin:5px auto;
+}
+div.container ul.btns li{
+	list-style-type:none;
+	width:8px;
+	height:8px;
+	float:left;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	-o-border-radius:12px;
+	-ms-border-radius:12px;
+	background-color:rgb(224,224,224);
+	border:1px solid #bbb;
+	margin-left:4px;
+	cursor:pointer;
+}
+div.container ul.btns li:hover{
+	background-color:rgb(205,205,205);
+}
+div.container ul.btns li.active{
+	background-color:rgb(42,161,221);
+}
