@@ -35,10 +35,6 @@ div.container div.slideshow{
 div.slideshow div.train{
 	width:10000px;
 	height:inherit;
-	-webkit-transition : margin-left 400ms ease-in-out;
-	-moz-transition : margin-left 400ms ease-in-out;
-	-o-transition : margin-left 400ms ease-in-out;
-	-ms-transition : margin-left 8400ms ease-in-out;
 }
 div.slideshow div.train > div{
 	width:1120px;

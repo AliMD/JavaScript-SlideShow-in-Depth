@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+}
+div.slideshow{
+	width: auto;
+	height: 400px;
+	padding-top: 1px;
+}
+div.slide{
+	width: 980px;
+	height: inherit;
+	margin: 0 auto;
+	position: relative;;
+}
+div.train{
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+}
+div.train > div{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	opacity:0;
+}
+div.btn{
+	width: 450px;
+	height: 350px;
+	position: absolute;
+	left: 265px;
+	top: -50px;
+}
+div.btn ul{
+	list-style-type: none;
+	width: inherit;
+	height: 60px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+div.btn ul > li{
+	width: 100px;
+	height: 50px;
+	z-index: 2;
+	margin-left: 10px;
+	float: left;
+	margin-top: -50px;
+	background-size: cover;
+	cursor:pointer;
+	border-radius: 5px;
+}
