@@ -5,6 +5,7 @@
 	<title>Farhad-rs New Design For Slider</title>
 	<link type="text/css" rel="stylesheet" href="../../reset.css" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="../zepto.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
