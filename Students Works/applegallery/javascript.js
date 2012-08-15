@@ -34,5 +34,5 @@ $(function() {
 		autoPlayIv = false;
 	}
 	$('div.slideshow').mouseover(autoPlayStop);
-	$('div.slideshow').mouseover(autoPlayStart);
+	$('div.slideshow').mouseout(autoPlayStart);
 });
