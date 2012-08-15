@@ -16,8 +16,8 @@ $(function(){
 	list.click(function(){
 		go2slide($(this).index());
 	});
-	$('div.slider div.back').click(backSlide = function(){
-		go2Slide(currentSlide-1);	
+	$('div.slider .back').click(backSlide = function(){
+		go2slide(currentSlide-1);	
 	});
 	$('div.slider div.next').click(nextSlide = function(){
 		go2slide(currentSlide+1);	
