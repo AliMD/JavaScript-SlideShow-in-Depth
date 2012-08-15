@@ -1,4 +1,29 @@
-window.onload = function () {
+$(function () {
+	var slider=$('.slider .slides'),
+		list=$('.slider .btns li'),
+		currentSlide=0,
+		autoplayIv=false;
+	gotoslide=function(n){
+		if (n>list.length-1) n=0;	
+		if (n<0) n=list.length-1;
+		slides.animate({
+			left:-700*n	
+		},2000,'ease-in-out');
+		list.eq(currentSlide).removeClass('active');
+		list.eq(n).addClass('active');
+		currentSlide=n;
+		
+	}
+});
+
+
+
+
+
+
+
+
+/*window.onload = function () {
 	var currentSlide = 0;
 	var slider = document.getElementsByClassName('slider').item(0);
 	var slides = slider.getElementsByClassName('slides').item(0);
@@ -35,8 +60,8 @@ window.onload = function () {
 	
 	slider.getElementsByClassName('back').item(0).onclick=backSlide;
 	slider.getElementsByClassName('next').item(0).onclick=nextSlide;
-	/*slider.getElementsByClassName('pause').item(0).onclick=autoPlayStop;
-	slider.getElementsByClassName('play').item(0).onclick=autoPlayStart;*/
+	slider.getElementsByClassName('pause').item(0).onclick=autoPlayStop;
+	slider.getElementsByClassName('play').item(0).onclick=autoPlayStart;
 	
 	for (var i=0;i<lists.length;i++) {
 		(function (j) {
@@ -45,4 +70,4 @@ window.onload = function () {
 			}
 		})(i);
 	}
-}
+}*/
