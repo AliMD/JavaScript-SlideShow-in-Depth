@@ -21,7 +21,7 @@
         	<div class="case-train">
         		<div class="train">
                 	<?php
-						$images_path = "../../images";
+						$images_path = "../../images/FilaSlider_Mr";
 						$images = scandir($images_path);
 						
 						foreach($images as $img){
