@@ -15,20 +15,15 @@
 		
 		<div class="slTow">
 			<?php
-				$counter=0;
 				$path='images';
 				$img_arr=scandir($path);
 				$img_inc='jpg,png,gif,jpeg';
 				$img_inc=explode(',',$img_inc);
 				foreach ($img_arr as $value) {
 					$val=explode('.',$value);
-					$endF=end($val);
+					$endF=strtolower(end($val));
 					if(in_array($endF, $img_inc)){
-						
-						$img_name='image-'.$counter.'.'.$endF;
-						//echo $img_name;
-						echo "<a href='$path/$img_name'><img src='$path/small/$img_name'></a>";
-						$counter++;//echo $counter;
+						echo "<a href='$path/$value'><img src='$path/small/$value'></a>";
 						}
 				}
 
