@@ -1,7 +1,7 @@
 // Javascript
 
 $(function(){
-	var part = $('div.slideshow div.part');
+	var part = $('div.slideshow div');
 	var li = $('div.menu ul li');
 	//set background position of each part
 
