@@ -22,7 +22,7 @@ div.slideshow{
 	width: 450px;
 	height: 300px;
 }
-div.slideshow div.part{
+div.slideshow div{
 	width: 112.5px;
 	height: 100px;
 	float: left;
