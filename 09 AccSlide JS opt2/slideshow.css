@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* SlideShow
+-------------------------------------------------- */
+
+div.container{
+	width       : 980px;
+	margin      : 0 auto;
+	padding-top : 1px;
+}
+
+div.slideshow{
+	width      : 650px;
+	height     : 300px;
+	margin     : 30px auto 0;
+	overflow   : hidden;
+	position   : relative;
+	background-image    : url('../images/loading.gif');
+	background-repeat   : no-repeat;
+	background-position : center center;
+	outline:1px solid black;
+}
+
+div.slideshow div.train{
+	width:1000px;
+	height : inherit;
+}
+div.slideshow div.train > div{
+	height : inherit;
+	float  : left;
+	background-repeat   : no-repeat;
+	background-position : left top;
+	cursor: pointer;
+}
