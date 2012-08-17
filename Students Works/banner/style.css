@@ -1,0 +1,95 @@
+body{
+	background-image: url('images/background.jpg');
+
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+
+div.slideshow{
+	width:1000px;
+	height:660px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.slideshow div.train{
+	width:9000px;
+	height: 660px;
+	position: absolute;
+	-webkit-transition: left 400ms;
+
+}
+
+div.slideshow div.train > div{
+	float: left;
+	background-position:left top;
+	width:1000px;
+	height:660px;
+}
+
+div.slideshow div.train div.img1{
+	background-image: url('images/broken-home_.jpg');
+}
+
+div.slideshow div.train div.img2{
+	background-image: url('images/haunted-mansion.jpg');
+}
+
+div.slideshow div.train div.img3{
+	background-image: url('images/serenity2.jpg');
+}
+
+div.slideshow div.train div.img4{
+	background-image: url('images/classroom.jpg');
+}
+
+div.slideshow div.train div.img5{
+	background-image: url('images/old-barn.jpg');
+}
+
+div.slideshow div.next{
+	position: absolute;
+	right:0;
+	top:0;
+	height: 660px;
+	cursor: url('images/arrow_right.png'),auto;
+	width:350px;
+	height:660px;
+}
+
+div.slideshow div.previous{
+	position: absolute;
+	left:0;
+	top:0;
+	height:660px;
+	cursor: url('images/arrow_left.png'),auto;
+	width:350px;
+	height:660px;
+}
+
+div.slideshow ul.btns{
+	position: absolute;
+	width:180px;
+	bottom:50px;
+	left:430px;
+}
+
+div.slideshow ul.btns li{
+	width:18px;
+	height: 18px;
+	border-radius:3px;
+	float: left;
+	margin-right:10px;
+	background-color: #444;
+	border:3px solid transparent;
+	opacity: 0.7;
+}
+
+div.slideshow ul.btns li:hover,ul.btns li.active{
+	border:3px solid rgb(102,217,239);
+}
+
+
