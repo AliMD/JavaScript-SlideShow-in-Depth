@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Js SlideShow Tow</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
+	<link type="text/css" rel="stylesheet"  href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/reset.css">
 	
-	<script src="js/zepto.js"></script>
-	<script src="js/SlideTow.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script type="text/javascript" src="script/zepto.js" ></script>
+	<script type="text/javascript" src="script/SlideTow.js"></script>
 </head>
 <body>
 
