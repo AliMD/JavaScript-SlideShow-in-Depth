@@ -45,6 +45,10 @@
                 ?>
             </div>
         </div>
+        <p class="footer">
+            © 2012 Mampel Design. All rights reserved. Accordion Slider example with PHP and JavaScript and CSS3.<br />
+            Mohammad Reza Shariatzadeh. Mr@Mampel.ir || <a href="http://www.mampel.ir">www.Mampel.ir</a>
+        </p>
     </div>
 </body>
 </html>
