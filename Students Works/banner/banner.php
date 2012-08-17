@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="../reset.css" />
+	<link rel="stylesheet" href="../../reset.css" />
 	<link rel="stylesheet" href="style.css" />
-	<script type="text/javascript" scr="../zepto.js"></script>
+	<script type="text/javascript" scr="../../zepto.js"></script>
 	<script type="text/javascript" src="banner.js" ></script>
 	<title></title>
 </head>
