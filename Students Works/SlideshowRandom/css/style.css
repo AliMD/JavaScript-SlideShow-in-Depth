@@ -22,7 +22,7 @@
  	width: 800px;
  	height: 600px;
  }
- div.slTow  a{
+ div.slTow a{
  	border: solid #fff;
  	border-width: 5px 5px 45px 5px;
  	border-radius: 2px;
@@ -33,7 +33,7 @@
 
  	
  }
- div.slTow  a  img{
+ div.slTow a img{
  	display: block;
  	width: 300px;
  	height: 225px;
