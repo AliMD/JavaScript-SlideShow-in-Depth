@@ -1,9 +1,4 @@
 
-
-*{
-	border:none !important;
-}
-
 body{
 	background-color:#CCC;
 	background-image:url(../../images/AccSlider_Mr/AccSlider_bg.png)
@@ -13,23 +8,25 @@ div.container{
 	width:980px;
 	height:700px;
 	margin:0 auto;
-	border:1px solid green;
 }
 
 div.container div.title{
-	
+	width:500px;
+	height:129px;
+	margin:0 auto;
+	background-image:url(../../images/AccSlider_Mr/AccSlider_title.png);
+	background-position:center center;
+	background-repeat:no-repeat;
 }
 
 div.container div.slideshow{
 	width:825px;
-	height:484px; /* 480 */
-	margin:50px auto 0;
+	height:484px;
+	margin:10px auto 0;
 	position:relative;
-	/*
-	*/
+	border-right:2px solid white !important;
 	box-shadow: 2px 2px 3px #535575;
 	overflow:hidden;
-	border:1px solid red;
 }
 
 div.slideshow div.train{
@@ -38,7 +35,6 @@ div.slideshow div.train{
 	position:absolute;
 	top:0;
 	left:0;
-	border:1px solid blue;
 }
 
 div.slideshow div.train > div{
@@ -46,9 +42,6 @@ div.slideshow div.train > div{
 	float:left;
 	background-repeat:no-repeat;
 	background-position:center top;
-	/*
-	*/
-	
 	overflow:hidden;
 	font-family: Cambria, serif;
 	border:2px solid white !important;
@@ -135,4 +128,25 @@ div.train > div div.overflow div.description a{
 	font-size:11px;
 	text-decoration:none;
 	color:#888;
+}
+
+div.container p.footer{
+	width:100%;
+	left:0;
+	position:absolute;
+	bottom:20px;
+	color:#666;
+	text-align:center;
+	line-height:14px;
+	font-family:sans-serif;
+	font-size:8pt;
+}
+
+div.container p.footer > a{
+	text-decoration:none;
+	color:#1D26FF;
+}
+
+div.container p.footer > a:hover{
+	text-decoration:underline;
 }
