@@ -1,8 +1,12 @@
 
-*{border:0 !important;}
+
+*{
+	border:none !important;
+}
 
 body{
 	background-color:#CCC;
+	background-image:url(../../images/AccSlider_Mr/AccSlider_bg.png)
 }
 
 div.container{
@@ -12,42 +16,58 @@ div.container{
 	border:1px solid green;
 }
 
+div.container div.title{
+	
+}
+
 div.container div.slideshow{
 	width:825px;
-	height:495px;/*480px*/
+	height:484px; /* 480 */
 	margin:50px auto 0;
 	position:relative;
+	/*
+	*/
+	box-shadow: 2px 2px 3px #535575;
 	overflow:hidden;
 	border:1px solid red;
 }
 
 div.slideshow div.train{
-	width:1300px;
-	height:495px; /*480px*/
+	width:2300px;
+	height:480px;
 	position:absolute;
 	top:0;
-	right:0;
+	left:0;
 	border:1px solid blue;
 }
 
 div.slideshow div.train > div{
 	height:480px;
-	float:right;
+	float:left;
 	background-repeat:no-repeat;
-	background-position:right top;
-	position:relative;
-	border:1px solid blue;
-	border: 2px solid white !important;
+	background-position:center top;
+	/*
+	*/
+	
+	overflow:hidden;
+	font-family: Cambria, serif;
+	border:2px solid white !important;
 	box-shadow: 1px 3px 15px #555;
 	-webkit-box-shadow: 1px 3px 15px #555;
 	-moz-box-shadow: 1px 3px 15px #555;
 	-o-box-shadow: 1px 3px 15px #555;
 	-ms-box-shadow: 1px 3px 15px #555;
-
 }
 
-div.slideshow div.train > div div.header{
-	width:100%;
+div.slideshow div.train > div div.overflow{
+	width:500px;
+	height:375px;
+	padding-bottom:5px;
+	position:relative;
+}
+
+div.train > div div.header{
+	width:auto;
 	height:30px;
 	line-height:30px;
 	margin-top:60px;
@@ -64,7 +84,7 @@ div.slideshow div.train > div div.header{
 	text-shadow:-1px -1px 1px #CCC;
 }
 
-div.slideshow div.train > div div.bg-slide{
+div.train > div div.overflow div.bg-slide{
 	width:100%;
 	height:340px;
 	background:url(../../images/AccSlider_Mr/AccSlider_bg_slide.png);
@@ -75,20 +95,12 @@ div.slideshow div.train > div div.bg-slide{
 	right:0px;
 }
 
-div.slideshow div.train > div div.overflow{
+div.train > div div.overflow div.description{
 	width:480px;
 	height:190px;
 	position:absolute;
 	bottom:0px;
 	left:0px;
-	overflow:hidden;
-	border:1px solid green;
-}
-
-div.train > div div.overflow div.description{
-	width:480px;
-	height:190px;
-	border:1px solid orange;
 }
 
 div.train > div div.overflow div.description h2{
@@ -103,7 +115,7 @@ div.train > div div.overflow div.description h2{
 	text-shadow:-1px -1px 1px #CCC;
 }
 
-div.train > div div.overflow div.descriptionn p{
+div.train > div div.overflow div.description p{
 	margin:10px 22px;
 	font-family:"Trebuchet MS",Arial, sans-serif;
 	font-size:12px;
@@ -116,7 +128,7 @@ div.train > div div.overflow div.descriptionn p{
 
 div.train > div div.overflow div.description a{
 	position:absolute;
-	bottom:13px;
+	bottom:25px;
 	left:24px;
 	text-transform:uppercase;
 	font-style:normal;
@@ -124,13 +136,3 @@ div.train > div div.overflow div.description a{
 	text-decoration:none;
 	color:#888;
 }
-
-
-
-
-
-
-
-
-
-
