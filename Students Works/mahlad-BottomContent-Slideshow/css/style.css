@@ -1,0 +1,71 @@
+/*
+ * Bottom Text Slideshow CSS
+ * 
+ * https://github.com/mahlad/Slideshow-Modules/tree/master/Picture-and-Content/BottomContent
+ * 
+ * Copyright (c) 2012, Mahla Delpak (mahlad365@gmail.com) under a MIT License (http://opensource.org/licenses/MIT).
+ *
+ */
+/*Global Section
+..................................*/
+*{
+	padding:0;
+	margin:0;	
+}
+body{
+	
+}
+/*Slideshow "sl-btm"
+..................................*/
+div.sl-btm{
+	width:600px;
+	position:relative;
+	margin:40px auto 0;
+	height:300px;
+	overflow:hidden;
+	border-radius: 8px;	
+}
+div.sl-btm div.sl-btm-img{
+	position:absolute;
+	width:2500px;
+	height:300px;
+	left:0;
+	top:0;
+}
+div.sl-btm-img img{
+	width:600px;
+	height:300px;
+	left:0;
+	float:left;	
+}
+div.sl-btm div.sl-btm-next, div.sl-btm div.sl-btm-prev{
+	position:absolute;
+	background:url(../images/sl-btm-arrow.png) no-repeat -30px 0;
+	width:30px;
+	height:30px;
+	top:130px;
+	cursor:pointer;
+	display: none;
+}
+div.sl-btm div.sl-btm-next{
+	right:0;	
+}
+div.sl-btm div.sl-btm-prev{
+	background-position:0 0;
+	left:0;
+}
+div.sl-btm div.sl-btm-text{
+	position:absolute;
+	width:2500px;
+	height:50px;
+	background:rgba(0,0,0,0.7);
+	bottom:0;
+	left:0;
+}
+div.sl-btm-text span{
+	width:600px;
+	color:#CCC;
+	float:left;
+	text-align:center;
+	padding:15px 0;
+}
