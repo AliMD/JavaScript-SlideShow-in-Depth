@@ -17,7 +17,7 @@
 			<div class="slideshow">
 				<div class="train">
 					<?php
-						$path= '../../images/';
+						$path= '../../images/moji-images';
 						$files= scandir($path);
 						$len= 0;
 						foreach ($files as $file) {

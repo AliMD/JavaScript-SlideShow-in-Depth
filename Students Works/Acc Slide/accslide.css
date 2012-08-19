@@ -10,7 +10,7 @@ div.container div.slideshow{
 	margin: 20px auto 0;
 	overflow: hidden;
 	position: relative;
-	background-image: url('../../images/loading.gif');
+	background-image: url('../../images/moji-images/loading.gif');
 	background-repeat: no-repeat;
 	background-position: center center;
 	outline: 1px solid black;

@@ -13,7 +13,7 @@
 		<div class="slideshow">
 			<div class="train">
 				<?php
-					$path= '../../images/';
+					$path= '../../images/moji-images';
 					$files= scandir($path);
 					foreach ($files as $file) {
 						$exp= explode('.',$file);
