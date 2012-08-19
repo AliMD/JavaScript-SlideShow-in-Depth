@@ -1,0 +1,209 @@
+
+body{
+	background-color:#424242;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+div.container{
+	width:980px;
+	height:700px;
+	margin:0 auto;
+}
+
+div.container div.slideshow{
+	width:800px;
+	height:650px;
+	margin:10px auto 0;
+	position:relative;
+}
+
+div.slideshow div.logo,
+div.slideshow div.footer-bar{
+	width:auto;
+	height:50px;
+	padding:0 0 0 20px;
+	background-color:#2d2c2c;
+}
+
+div.slideshow div.logo a{
+	background-image: url(../../images/FilaSlider_Mr/fila_logo.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width: 80px;
+	height: 49px;
+	color: transparent;
+	display:block;
+	float:left;
+	top: auto;
+}
+
+div.slideshow div.search-box{
+	width:136px;
+	height:20px;
+	float:right;
+	margin:15px 10px 0 0;
+	background-image:url(../../images/FilaSlider_Mr/fila_background_search.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+
+div.slideshow div.search-box > input{
+	width:100px;
+	height:10px;
+	background-color:transparent;
+	border:0;
+	font-size:11px;
+	padding:5px;
+	float:left;
+}
+
+div.slideshow div.search-box > button{
+	width:19px;
+	height:20px;
+	background-color:transparent;
+	border:0;
+	cursor:pointer;
+	float:left;
+}
+
+div.slideshow > h2{
+	border-bottom: 1px solid #AAA !important;
+	line-height: 50px;
+	color:white;
+	font-size:24px;
+	font-weight:bold;
+	padding: 10px 0 0 0;
+	margin-bottom:20px;
+}
+
+div.slideshow > h1{
+	border-top: 1px solid #AAA !important;
+	margin:20px 0 30px 0;
+}
+
+div.slideshow div.case-train{
+	width:699px;
+	height:410px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+div.slideshow div.pre,
+div.slideshow div.next{
+	width:41px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+}
+
+div.slideshow div.pre{
+	top:300px;
+	left:0px;
+	background-image:url(../../images/FilaSlider_Mr/fila_sprite-icons.png);
+	background-repeat:no-repeat;
+	background-position:0px -1px;
+}
+
+
+div.slideshow div.pre:hover{
+	background-position:0px -42px;
+}
+
+div.slideshow div.next{
+	top:300px;
+	right:0px;
+	background-image:url(../../images/FilaSlider_Mr/fila_sprite-icons.png);
+	background-repeat:no-repeat;
+	background-position:-42px -2px;
+}
+
+div.slideshow div.next:hover{
+	background-position:-42px -43px;
+}
+
+div.case-train div.train{
+	width:10000px;
+	height:410px;
+	position:absolute;
+	top:0;
+	left:0;
+	transition: left 800ms ease-in-o;
+	-webkit-transition: left 800ms ease-in-out;
+	-moz-transition: left 800ms ease-in-out;
+	-o-transition: left 800ms ease-in-out;
+	-ms-transition: left 800ms ease-in-out;
+}
+
+div.train > div{
+	width:230px;
+	height:410px;
+	float:left;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+	margin-left:3px;
+}
+
+div.train > div div.info{
+	width:inherit;
+	height:80px;
+	position:absolute;
+	bottom:-80px;
+	left:0;
+	background-image:url(../../images/FilaSlider_Mr/fila_bg_info.png);
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	-ms-transition: all 1000ms ease-in-out;
+}
+
+div.train > div:hover div.info{
+	bottom:0px;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;	
+}
+
+div.info > div{
+	width:inherit;
+	height:50px;
+	padding-top:1px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+div.info > div > span{
+	display:block;
+	margin:5px 0 0 10px;
+}
+
+div.info > a{
+	display: block;
+	width:inherit;
+	height:30px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	line-height:30px; /* with this way whole text in div display in center as top-bottom and right-left (line-height==height of div and text-align=center)*/ 
+	text-transform: uppercase;
+	background-image:url(../../images/FilaSlider_Mr/fila_bg_info_a.png);
+}
+
+div.container p.footer{
+	width:100%;
+	left:0;
+	position:absolute;
+	bottom:20px;
+	color:#666;
+	text-align:center;
+	line-height:14px;
+	font-family:sans-serif;
+	font-size:8pt;
+}
