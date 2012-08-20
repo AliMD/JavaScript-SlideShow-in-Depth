@@ -12,17 +12,20 @@
 	padding:0;
 	margin:0;	
 }
-body{
-	
+div.container{
+	width: 950px;
+	margin:0 auto;
+	padding-top: 1px;
 }
 /*Slideshow "sl-btm"
 ..................................*/
 div.sl-btm{
 	width:600px;
+	height:300px;
 	position:relative;
 	margin:40px auto 0;
-	height:300px;
 	overflow:hidden;
+	background: url('images/loading.gif') no-repeat center center;
 	border-radius: 8px;	
 }
 div.sl-btm div.sl-btm-img{
@@ -31,8 +34,10 @@ div.sl-btm div.sl-btm-img{
 	height:300px;
 	left:0;
 	top:0;
+	-moz-transition:left 800ms ease-in-out;
+	-webkit-transition:left 800ms ease-in-out;
 }
-div.sl-btm-img img{
+div.sl-btm div.sl-btm-img > div{
 	width:600px;
 	height:300px;
 	left:0;
