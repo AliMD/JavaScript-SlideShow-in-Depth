@@ -7,8 +7,9 @@
  */
 /*Global
  ..............................*/
+ @charset "UTF-8";
  body{
- 	background-color: #001 !important;
+ 	background-color: #001;
 
  }
  div.container{
@@ -35,7 +36,6 @@
  }
  div.slTow a img{
  	display: block;
- 	width: 300px;
- 	height: 225px;
+ 	
  }
   
