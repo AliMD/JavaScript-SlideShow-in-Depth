@@ -7,6 +7,44 @@
  */
 /*Global
  ..............................*/
+/*
+ * Gallery v1
+ * ali.md/wd
+ */
+
+@charset "UTF-8";
+
+body{
+	background-color: #001;
+}
+
+div.container{
+	width: 950px;
+	margin: 0 auto;
+}
+
+div.slTow{
+	position: relative;
+	width: 800px;
+	height:600px;
+	border:1px solid gray;
+	margin: 30px auto 0;
+}
+
+div.slTow a{
+	display: block;
+	position: absolute;
+	border:solid white;
+	border-width: 6px 6px 45px 6px;
+	border-radius: 2px;
+	opacity: 0;
+	z-index: 1;
+}
+
+div.slTow img{
+	display: block;
+}
+ /*
  @charset "UTF-8";
  body{
  	background-color: #001;
