@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color:#fff;
+  	background-color:#333;/*???????????????*/
 }
 
 div.container{
@@ -33,7 +33,7 @@ div.scroll .bg-button{
 	top:385px;
 	z-index:-1;
 
-	background-image:url('../images/slidezepto(new)/shadow.png');
+	background-image:url('../../images/zohreh-img/slidezepto(new)/shadow.png');
 	background-position:100% 100%;
 	background-repeat:no-repeat;
 }
@@ -52,7 +52,7 @@ div.scroll div.train{
 div.scroll div.train > div{
 	width:900px;
 	height:inheri;
-	border-radius:5px;
+	border-radius:5px;/*???????????????*/
 	float:left;
 	
 	background-repeat:no-repeat;
@@ -81,12 +81,12 @@ div.slide div.next,div.prev{
 }
 
 div.slide div.prev{
-	background-image:url('../images/slidezepto(new)/left-arrow.png');
+	background-image:url('../../images/zohreh-img/slidezepto(new)/left-arrow.png');
 }
 
 div.slide div.next{
 	right:-40px;
-	background-image:url('../images/slidezepto(new)/right-arrow.png');
+	background-image:url('../../images/zohreh-img/slidezepto(new)/right-arrow.png');
 }
 
 div.scroll ul.btn{
@@ -94,7 +94,7 @@ div.scroll ul.btn{
 	width:100px;
 	height:12px;
 	position:absolute;
-	bottom:50px;
+	bottom:65px;
 	right:400px;
 }
 

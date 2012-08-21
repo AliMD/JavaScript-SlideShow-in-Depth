@@ -14,16 +14,16 @@
 
 </head>
 
-<body>
+<body style="background-color:#555;">
 
 <div class="container">
     <div class="slide">
 		<div class="scroll">
 			<div class="train">
 				<?php
-					$path = '../images/my-image/slidezepto(new)';
+					$path = '../../images/zohreh-img/slidezepto(new)';
 					$files = scandir($path);
-					$pathpic = '../images/my-image/slidezepto(new)/pics';
+					$pathpic = '../../images/zohreh-img/slidezepto(new)/pics';
 					$pics = scandir($pathpic);
 					$len = 0;
 					$i = 2;
@@ -33,7 +33,6 @@
 						if($type == strtolower( 'jpg')){
 							echo "<div ><img src='$path/$file' />";
 							echo "<div ><img src='$pathpic/$pics[$i]' /></div>";
-//							echo '<div class="pic" style="background-image:url("$pathpic/$pics[$i]");" ></div>';
 							echo '</div>';
 							$len++;
 							$i++;
