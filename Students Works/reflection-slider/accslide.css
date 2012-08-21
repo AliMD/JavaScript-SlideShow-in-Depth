@@ -1,0 +1,42 @@
+body{
+	background-color:black;
+}
+
+.slider{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
+	width:710px;
+	height:400px;
+	overflow:hidden;
+}
+
+.scroll{
+	height:inherit;
+	width:950px;
+}
+
+.slider .scroll > div{
+	height:inherit;
+	overflow:hidden;
+	float:left;
+	width:110px;
+	border-left:5px black solid;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.slider .scroll > div img{
+	opacity:.4;
+	-webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%,transparent),to(rgba(255,255,255,0.5)));
+	-webkit-transition:opacity 1s;
+	display:block;
+}
+
+.slider .scroll > div img:hover{
+	opacity:1;
+}
