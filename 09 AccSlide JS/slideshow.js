@@ -14,4 +14,3 @@ $(document).ready(function(){
 		slides.animate({width:slidesWidth+'px'},500);
 	});
 })
-
