@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>JQ SLIDER</title>
+<title>____REFLECTION____</title>
 <link type="text/css" rel="stylesheet" href="../../reset.css" />
 <link type="text/css" rel="stylesheet" href="accslide.css" />
 <script type="text/javascript" src="../../zepto.js"></script>
