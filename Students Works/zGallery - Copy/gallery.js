@@ -28,7 +28,9 @@ $(function(){
         });
 		
 		pics.mouseover(function(){
+			pics.css({opacity:0.5},400);
 			$(this).animate({
+				opacity:1,
 				rotate:'360deg',
 				scale:2,
 				},400);
@@ -36,7 +38,9 @@ $(function(){
 		
 		pics.mouseout(function(){
 			$(this).animate({
-				rotate:'0deg'
+				rotate:'0deg',
+				scale:1,
 			},200);
+			pics.css({opacity:1},400);
 		});
 })
