@@ -33,22 +33,8 @@ div.gallery div.bg-div{
 	border-bottom:35px solid #fff;
 	outline:1px dashed #000;
 	outline-offset:-3px;
-	/*
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-ms-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	transition:all 0.5s;*/
 }
-/*
-div.gallery div.bg-div:hover{
-	-webkit-transform:scale(2.5,2.5) rotate(360deg);
-	-moz-transform:scale(2.5,2.5) rotate(360deg);
-	-ms-transform:scale(2.5,2.5) rotate(360deg);
-	-o-transform:scale(2.5,2.5) rotate(360deg);
-	transform:scale(2.5,2.5) rotate(360deg);
-}
-*/
+
 div.gallery div.bg-div{
 	width:250px;
 	height:150px;

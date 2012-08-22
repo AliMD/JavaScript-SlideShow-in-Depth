@@ -9,7 +9,9 @@ $(function(){
 		due = 250,
 		delay = 100,
 		wd = -270,
-		hg=50;
+		hg=50,
+		topimg=0,
+		leftimg=0;
 		
 		pics.each(function() {
 			var that = $(this);
@@ -29,11 +31,13 @@ $(function(){
 		
 		pics.mouseover(function(){
 			pics.css({opacity:0.5},400);
+			//topimg = $(this).top;
 			$(this).animate({
 				opacity:1,
 				'z-index':'2',
 				rotate:'360deg',
 				scale:2,
+//				top:250,
 				},400);
 		});
 		
@@ -42,6 +46,7 @@ $(function(){
 				'z-index':'1',
 				rotate:'0deg',
 				scale:1,
+//				top:topimg,
 			},200);
 			pics.css({opacity:1},400);
 		});
