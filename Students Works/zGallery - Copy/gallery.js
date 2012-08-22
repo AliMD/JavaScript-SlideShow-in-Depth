@@ -10,6 +10,7 @@ $(function(){
 		delay = 100,
 		wd = -270,
 		hg=50;
+		
 		pics.each(function() {
 			var that = $(this);
 			setTimeout(function(){
@@ -21,9 +22,21 @@ $(function(){
   				that.animate({
 					left:wd,					
 					top:hg,
-				//	opacity:1,
 				},due);   
 	
 			},delay+=due);
         });
+		
+		pics.mouseover(function(){
+			$(this).animate({
+				rotate:'360deg',
+				scale:2,
+				},400);
+		});
+		
+		pics.mouseout(function(){
+			$(this).animate({
+				rotate:'0deg'
+			},200);
+		});
 })
