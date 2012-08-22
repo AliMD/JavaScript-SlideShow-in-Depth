@@ -31,6 +31,7 @@ $(function(){
 			pics.css({opacity:0.5},400);
 			$(this).animate({
 				opacity:1,
+				'z-index':'2',
 				rotate:'360deg',
 				scale:2,
 				},400);
@@ -38,6 +39,7 @@ $(function(){
 		
 		pics.mouseout(function(){
 			$(this).animate({
+				'z-index':'1',
 				rotate:'0deg',
 				scale:1,
 			},200);
