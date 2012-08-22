@@ -19,7 +19,7 @@
 					$exp = explode('.', $img);
 					$img_type = strtolower(end($exp));
 					if($img_type == 'jpg')
-						echo "<a href='#'><img src='$images_path/$img' width=200 /><div>kknjknxkdsks</div></a>";
+						echo "<a href='#'><img src='$images_path/$img' width=200 /></a>";
 				}
 			?>
 		</div>

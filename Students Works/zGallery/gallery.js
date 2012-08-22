@@ -12,9 +12,9 @@ $(function(){
 			var that = $(this);
 			setTimeout(function(){
   				that.animate({
-					left:Math.random(0,500),
-					top:Math.random(0,400),
-					rotate:Math.random(-40,40)+'deg'
+					left:Math.random(0,400),
+					top:Math.random(0,300),
+					rotate:Math.random(-20,20)+'deg'
 				},due);   
 			},delay+=due);
         });

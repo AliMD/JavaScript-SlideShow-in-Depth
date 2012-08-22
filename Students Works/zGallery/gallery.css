@@ -30,7 +30,6 @@ div.gallery a{
 
 div.gallery img{
 	display: block;
-	z-index:-1;
 	border:6px solid #fff;
 	border-bottom:25px solid #fff;
 	outline:1px dashed #000;
@@ -45,5 +44,9 @@ div.gallery img{
 }
 
 div.gallery img:hover{
-	-webkit-transform:scale(3,3);
+	-webkit-transform:scale(2.5,2.5);
+	-moz-transform:scale(2.5,2.5);
+	-ms-transform:scale(2.5,2.5);
+	-o-transform:scale(2.5,2.5);
+	transform:scale(2.5,2.5);
 }
