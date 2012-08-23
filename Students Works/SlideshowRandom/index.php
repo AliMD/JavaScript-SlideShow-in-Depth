@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="slRnd">
 			<?php
-				$path='images';
+				$path='../../images/SlideshowRandom';
 				$img_arr=scandir($path);
 				$img_inc='jpg,png,gif,jpeg';
 				$img_inc=explode(',',$img_inc);
