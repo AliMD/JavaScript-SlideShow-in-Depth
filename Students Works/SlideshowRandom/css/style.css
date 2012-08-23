@@ -1,5 +1,5 @@
 /*
- * Js SlideShow Tow CSS
+ * Js SlideShow Random CSS
  *
  * Copyright (c) <2012> Mahla Delpak<mahlad365@gmail.com>
  *
@@ -7,45 +7,6 @@
  */
 /*Global
  ..............................*/
-/*
- * Gallery v1
- * ali.md/wd
- */
-
-@charset "UTF-8";
-
-body{
-	background-color: #001;
-}
-
-div.container{
-	width: 950px;
-	margin: 0 auto;
-}
-
-div.slTow{
-	position: relative;
-	width: 800px;
-	height:600px;
-	border:1px solid gray;
-	margin: 30px auto 0;
-}
-
-div.slTow a{
-	display: block;
-	position: absolute;
-	border:solid white;
-	border-width: 6px 6px 45px 6px;
-	border-radius: 2px;
-	opacity: 0;
-	z-index: 1;
-}
-
-div.slTow img{
-	display: block;
-}
- /*
- @charset "UTF-8";
  body{
  	background-color: #001;
 
@@ -54,14 +15,16 @@ div.slTow img{
  	width:950px;
  	margin: 0 auto;
  }
- div.slTow{
+ /*SlideShow Random
+ ..............................*/
+ div.slRnd{
  	border: 1px solid gray;
  	margin: 90px auto;
  	position: relative;
  	width: 800px;
  	height: 600px;
  }
- div.slTow a{
+ div.slRnd a{
  	border: solid #fff;
  	border-width: 5px 5px 45px 5px;
  	border-radius: 2px;
@@ -72,8 +35,7 @@ div.slTow img{
 
  	
  }
- div.slTow a img{
+ div.slRnd a img{
  	display: block;
- 	
  }
   
