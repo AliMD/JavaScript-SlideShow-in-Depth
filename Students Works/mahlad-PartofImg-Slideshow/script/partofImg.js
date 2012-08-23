@@ -13,7 +13,7 @@ $(function () {
 
 		}
 	})(totalImg);
-	listSpan.last().css({'padding-right':'200px'});
+	listSpan.last().css({'padding-right':'400px'});
 
 	listImg.click(function(){
 		var ind=$("div.partSl div.imgSl div").index(this);
