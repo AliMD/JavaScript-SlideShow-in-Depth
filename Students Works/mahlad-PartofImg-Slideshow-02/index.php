@@ -13,7 +13,7 @@
 		<div class="partSl">
 			<div class="imgSl">
 				<?php 
-					$path='./images';
+					$path='../../images/mahlad-PartofImg-Slideshow';
 					$img_arr=scandir($path);
 					
 					foreach ($img_arr as $each_img) {
