@@ -18,7 +18,8 @@
 					$images=scandir($img_path);
 					foreach ($images as $img) {
 						$img_arr=explode('.', $img);
-						$img_type=strtolower($img_arr);// uppercase to lowercase
+						$img_lowcase=strtolower($img_arr);// uppercase to lowercase
+						$img_type=end($img_lowcase);
 						if($img_type==jpg){
 							echo "<div style=\"background-image:url('$img_path/$img');\"></div>";
 							$img_length++;

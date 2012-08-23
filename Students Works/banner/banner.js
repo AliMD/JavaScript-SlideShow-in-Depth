@@ -12,11 +12,11 @@ $(function(){  // means document ready and document ready means that after loadi
 		currentSlide=n;
 
 	})(0);
-}())
+
 	btns.click(function(){
 		go2Slide($(this).index());
 	});
-	$('div.slideshow div.next').click(next=function(){
+	$('div.slideshow div.next').click(nextSlide=function(){
 		go2Slide(currentSlide+1);
 	});
 	$('div.slideshow div.previous').click(function(){
@@ -32,10 +32,10 @@ $(function(){  // means document ready and document ready means that after loadi
 		clearInterval(autoPlayIv);
 		autoPlayIv=false;
 	}
-	slideshow.onmouseover(autoPlayStop);
-	slideshow.onmouseout(autoPlayStart)
+	slideshow.mouseover(autoPlayStop);
+	slideshow.mouseout(autoPlayStart);
+}());
 
-};
 
 
 
