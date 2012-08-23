@@ -13,14 +13,14 @@
 		<div class="slideshow">
 			<div class="train">
 				<?php
-					$img_path='/images';
+					$img_path='images';
 					$img_length=0;
 					$images=scandir($img_path);
 					foreach ($images as $img) {
 						$img_arr=explode('.', $img);
-						$img_lowcase=strtolower($img_arr);// uppercase to lowercase
-						$img_type=end($img_lowcase);
-						if($img_type==jpg){
+						$img_type=strtolower(end($img_arr));// uppercase to lowercase
+						
+						if($img_type=='jpg'){
 							echo "<div style=\"background-image:url('$img_path/$img');\"></div>";
 							$img_length++;
 						}
