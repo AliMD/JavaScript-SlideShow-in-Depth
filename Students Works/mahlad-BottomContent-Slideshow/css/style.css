@@ -25,7 +25,7 @@ div.sl-btm{
 	position:relative;
 	margin:40px auto 0;
 	overflow:hidden;
-	background: url('images/loading.gif') no-repeat center center;
+	background: url('../../../images/mahlad-BottomContent-Slideshow/loading.gif') no-repeat center center;
 	border-radius: 8px;	
 }
 div.sl-btm div.sl-btm-img{

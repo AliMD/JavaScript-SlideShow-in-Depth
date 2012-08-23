@@ -14,7 +14,7 @@
 		<div class="sl-btm">
 			<div class="sl-btm-img">
 				<?php 
-					$path='./images';
+					$path='../../images/mahlad-BottomContent-Slideshow';
 					$arr_imgs=scandir($path);
 					foreach ($arr_imgs as $img) {
 						$img_typ=explode('.',$img);
