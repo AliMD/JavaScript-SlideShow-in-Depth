@@ -12,7 +12,7 @@
 	<div class="partSl">
 		<div class="imgSl">
 			<?php 
-				$path='images';
+				$path='../../images/mahlad-PartofImg-Slideshow';
 				$img_arr=scandir($path);
 				$all_type='jpg,png,gif,jpeg';
 				$all_type=explode(',',$all_type);
