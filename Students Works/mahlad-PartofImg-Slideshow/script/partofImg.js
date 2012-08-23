@@ -1,7 +1,8 @@
 $(function () {
 	var slideshow=$("div.partSl"),
 		listImg=$("div.partSl div.imgSl div"),
-		totalImg=$("div.partSl div.imgSl div").length;
+		totalImg=$("div.partSl div.imgSl div").length,
+		listSpan=$("div.partSl div.imgSl div span");
 	(position=function(m){
 		for(var n=1;n<=m;n++)
 		{
@@ -12,7 +13,8 @@ $(function () {
 
 		}
 	})(totalImg);
-	
+	listSpan.last().css({'padding-right':'200px'});
+
 	listImg.click(function(){
 		var ind=$("div.partSl div.imgSl div").index(this);
 		//alert(listImg.index());

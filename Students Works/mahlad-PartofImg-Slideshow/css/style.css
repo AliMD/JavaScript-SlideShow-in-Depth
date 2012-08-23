@@ -40,7 +40,7 @@ div.partSl div.imgSl > div{
 
 
 }
-div.partSl div.imgSl span{
+div.partSl div.imgSl div span{
 	position: absolute;
 	left: 0;
 	height: 20px;
