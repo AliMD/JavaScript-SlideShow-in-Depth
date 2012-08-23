@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Part of Image Slideshow</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="script/jquery.js"></script>
 	<script type="text/javascript" src="script/partofImg.js"></script>
 </head>
