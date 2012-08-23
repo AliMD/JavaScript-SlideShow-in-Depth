@@ -11,7 +11,8 @@ $(function(){
 			left:Math.random(50,500),
 			top:Math.random(50,300),
 			opacity:0.9,
-			'-moz-transform':'rotate('+Math.random(-90,90)+'deg)'
+			'-moz-transform':'rotate('+Math.random(-90,90)+'deg)',
+			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)'
 			
 		},500);
 	});
