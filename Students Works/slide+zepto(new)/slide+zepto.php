@@ -26,8 +26,8 @@
 					$i = 2;
 					foreach($files as $file){
 						$type = explode('.',$file);
-						$type = end($type);
-						if($type == strtolower( 'jpg')){
+						$type = strtolower(end($type));
+						if($type ==  'jpg'){
 							echo "<div ><img src='$path/$file' />";
 							echo "<div ><img src='$pathpic/$pics[$i]' /></div>";
 							echo '</div>';
