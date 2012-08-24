@@ -1,0 +1,41 @@
+/*
+ * Js SlideShow Random CSS
+ *
+ * Copyright (c) <2012> Mahla Delpak<mahlad365@gmail.com>
+ *
+ * http://opensource.org/licenses/MIT
+ */
+/*Global
+ ..............................*/
+ body{
+ 	background-color: #001;
+
+ }
+ div.container{
+ 	width:950px;
+ 	margin: 0 auto;
+ }
+ /*SlideShow Random
+ ..............................*/
+ div.slRnd{
+ 	border: 1px solid gray;
+ 	margin: 90px auto;
+ 	position: relative;
+ 	width: 800px;
+ 	height: 600px;
+ }
+ div.slRnd a{
+ 	border: solid #fff;
+ 	border-width: 5px 5px 45px 5px;
+ 	border-radius: 2px;
+ 	display: block;
+ 	position: absolute;
+ 	z-index: 1;
+ 	opacity: 0;
+
+ 	
+ }
+ div.slRnd a img{
+ 	display: block;
+ }
+  
