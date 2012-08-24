@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8" />
 <title>____REFLECTION____</title>
 <link type="text/css" rel="stylesheet" href="../../reset.css" />
 <link type="text/css" rel="stylesheet" href="accslide.css" />
@@ -11,7 +11,6 @@
 <body>
 <div class="container">
 	<div class="slider">
-	<br />
 		<div class="scroll">
 			<?php
 				$images_path = '../../images/reflection-slider';		
