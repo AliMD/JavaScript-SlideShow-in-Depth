@@ -19,9 +19,8 @@
 					$exp = explode('.', $img);
 					$img_type = strtolower(end($exp));
 					if($img_type == 'jpg')
-//						echo "<a href='#'><img src='$images_path/$img' width=200 /></a>";
 						echo "<div class='bg-div' style='background-image:url($images_path/$img);'>
-								<div class='text'>sdn cbjknc jksdkcnbsjcns</div>
+								<div class='text'>sdn jksdkcnbsjcns</div>
 							</div>";
 				}
 			?>
