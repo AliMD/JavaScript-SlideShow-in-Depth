@@ -6,8 +6,6 @@ $(function(){
 		addtop = 0;
 		lf = 50,
 		tp = 70,
-		duration = 200,
-		delay = 100,
 		counter = 0;
 		lists.each(function(){
 			var that = $(this);
@@ -38,7 +36,7 @@ $(function(){
 					top:addtop,
 					left:addleft
 				},600);				
-			},duration+=delay);
+			});
 		});
 		listp.mouseover(function(){
 				$(this).animate({color:'red'});		
