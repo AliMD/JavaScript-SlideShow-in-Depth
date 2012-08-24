@@ -37,7 +37,7 @@ div.gallery div.bg-div{
 div.gallery div.bg-div{
 	width:150px;
 	height:100px;
-	background-position:100% 100%;
+	background-size:100% 100%;
 	background-repeat:no-repeat;	
 	cursor:pointer;
 }
