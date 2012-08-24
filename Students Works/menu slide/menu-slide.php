@@ -31,10 +31,10 @@
 									<span>WEB</span>
 									<div class='menu'>
 										<ul>
-											<li>menu1</li>
-											<li>menu2</li>
-											<li>menu3</li>
-											<li>menu4</li>
+											<li>Menu1</li>
+											<li>Menu2</li>
+											<li>Menu3</li>
+											<li>Menu4</li>
 										</ul>
 									</div>
 								</div>";
