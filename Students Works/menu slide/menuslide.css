@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#E6ECF3;
+}
+
+div.slide{
+	width:900px;
+	height:180px;
+	margin:auto;
+	background-color:#fff;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	box-shadow:1px 1px 20px #999;
+	
+	background-image:url('../../images/zohreh-img/menu-slide/c2a.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+
+}
+
+div.slide .scroll{
+	width:400px;
+	margin:auto;
+	padding-top:20px;
+	overflow:hidden;
+	
+}
+
+div.slide div.scroll .train{
+	width:600px;
+}
+
+div.slide div.scroll .train div{
+	float:left;
+	padding-right:30px;
+	position:relative;
+}
+
+div.slide div.scroll .train div img{
+	cursor:pointer;
+}
+
+div.slide div.scroll .train div span{
+	display:none;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:25px;
+	cursor:pointer;
+
+}
+
+div.slide div.scroll .train div div.menu{
+	position:absolute;
+	top:20px;
+	left:95px;
+	display:none;
+}
+
+div.slide div.scroll .train div div.menu li{
+	padding-bottom:5px;
+	cursor:pointer;
+}
+
+div.null{
+	height:80px;
+}
+div.content{
+	width:900px;
+	height:450px;
+	margin:auto;
+	background-color:#fff;	
+	border-radius:10px;
+	box-shadow:1px 1px 20px #999;
+}
