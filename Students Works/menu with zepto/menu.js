@@ -38,10 +38,10 @@ $(function(){
 				},600);				
 			});
 		});
-		listp.mouseover(function(){
-				$(this).animate({color:'red'});		
+		lists.mouseover(function(){
+			listp.eq($(this).index()-1).animate({opacity:'1'},500);
 		});
-		listp.mouseout(function(){
-				$(this).animate({color:'black'});		
+		lists.mouseout(function(){
+			listp.eq($(this).index()-1).animate({opacity:'0'},500);
 		});
 });
