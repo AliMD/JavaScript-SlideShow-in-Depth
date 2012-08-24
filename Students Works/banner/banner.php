@@ -28,8 +28,8 @@
 					}
 				?>
 			</div>
-			<div class="next" onclick="nextSlide();"></div>
-			<div class="previous" onclick="preSlide();"></div>
+			<div class="next"></div>
+			<div class="previous"></div>
 			<ul class="btns">
 				<?php
 					for($i=0;$i<$img_length;$i++){
