@@ -1,7 +1,7 @@
 //Zepto
 $(function(){
 
-	var slides	= $('div.scroll'),
+	var slides	= $('div.slide'),
 		train	 = $('div.scroll div.train'),
 		lists	 = $('div.scroll ul.btn li'),
 		pics	  = $('div.scroll div.train > div  div'),
@@ -39,7 +39,7 @@ $(function(){
 		gotoslide(current-1);
 	});
 	
-	$('div.slide .next').click(autoplay=function(){
+	$('div.slide .next').click(function(){
 		gotoslide(current+1);
 	});
 	
