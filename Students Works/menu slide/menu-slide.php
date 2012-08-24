@@ -45,7 +45,36 @@
         </div>
 	</div>
     <div class="null"></div>
-    <div class="content"></div>
+    <div class="content">
+    	<div class="left">
+	  		 <h1 class="size">	javaScript Slick Menu</h1>
+
+				<h2 class="font">Main Features:</h2>
+					- Nice, customizable animation<br />
+- Trivial implementation to your website<br />
+- Fully W3C compliant (XHTML 1.0 strict!)<br />
+- Works fine on mobile devices (iPhone, iPad tested)<br />
+- Touch screens compatible<br />
+- Lots of configuration options<br />
+- Preserves state in navigation<br />
+- Good default configuration<br />
+- You can control it programisticaly!<br />
+</div>
+<div class="right">
+<h1 class="size">Easy integration:</h1>
+It's enough to use this JS code:<br />
+
+
+<span style="background-color:#999">$("#menuContainer").slickMenu();</span><br />
+			
+<h2 class="font">Factsheet:</h2>
+- Created as a javaScript<br />
+- Based on javaScript 1.7.2 and javaScript UI 1.8.18<br />
+- XHTML 1.0 strict, CSS 2<br />
+- Uses Google Font API for nice fonts (not required)<br />
+- Plugin itself is 4 kB uncompressed and 2 kB compressed<br />
+</div>
+    </div>
 </div>
 
 </body>
