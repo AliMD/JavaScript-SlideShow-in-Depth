@@ -1,4 +1,5 @@
 // JavaScript Document
+//function showmenu(){
 $(function(){
 	var lists = $('div.container .circlemenu li'),
 		listp = $('div.container .circlemenu li p'),
