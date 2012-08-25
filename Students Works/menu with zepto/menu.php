@@ -22,8 +22,8 @@
 			echo "<a href='#' onClick='showmenu'>show menu</a>";
 			foreach($images as $img){
 				$type = explode('.',$img);
-				$type = end($type);
-				if($type == strtolower('png')){
+				$type = strtolower(end($type));
+				if($type == ('png')){
 					echo "<li><img src='$path/$img' /><p>vsagvash</p></li>";
 				}
 			}
