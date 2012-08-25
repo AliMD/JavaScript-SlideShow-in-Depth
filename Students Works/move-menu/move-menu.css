@@ -3,6 +3,7 @@
 
 body{
 	background-color:#e1e1e1;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -11,14 +12,14 @@ header{
 }
 
 div.container{
-	width:1050px;
+	width:950px;
 	margin:auto;
 }
 
 div.container menu.centermenu{
 	list-style:none;
-	width:1050px;
-	margin:auto;
+	width:950px;
+	margin:0 auto;
 }
 
 div.container menu.centermenu li{
@@ -28,7 +29,7 @@ div.container menu.centermenu li{
 	float:left;
 	padding-top:10px;
 	width:95px;
-	height:95px;
+	height:105px;
 	background-image:url('../../images/zohreh-img/img-menu/btn-1.png');
 	cursor:pointer;
 	margin-right:20px;
@@ -47,5 +48,7 @@ div.container menu.centermenu li img{
 
 div.container menu.centermenu li p{
 	 text-align:center;
-	 text-shadow:1px 1px 1px #fff,-1px -1px 1px #111;
+	 font-size:17px;
+	 margin-top:8px;
+	 text-shadow:0 1px 0 #fff;
 }

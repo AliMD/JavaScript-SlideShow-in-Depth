@@ -23,7 +23,7 @@
 				$type = explode('.',$img);
 				$type = strtolower(end($type));
 				if($type == ('png')){
-					echo "<li><img src='$path/$img' /><p>vsagvash</p></li>";
+					echo "<li><img src='$path/$img' /><p>Home</p></li>";
 				}
 			}
 		?>
