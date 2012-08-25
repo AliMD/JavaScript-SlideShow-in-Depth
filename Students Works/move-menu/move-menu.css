@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#e1e1e1;
+}
+
+header{
+	height:130px;
+	background-image:url('../../images/zohreh-img/img-menu/header-bg.png');
+}
+
+div.container{
+	width:1050px;
+	margin:auto;
+}
+
+div.container menu.centermenu{
+	list-style:none;
+	width:1050px;
+	margin:auto;
+}
+
+div.container menu.centermenu li{
+	position:absolute;
+	top:-25px;
+	left:350px;
+	float:left;
+	padding-top:10px;
+	width:95px;
+	height:95px;
+	background-image:url('../../images/zohreh-img/img-menu/btn-1.png');
+	cursor:pointer;
+	margin-right:20px;
+	border:1px solid black;
+	border-radius:7px;
+	box-shadow:1px 1px 10px #888;
+}
+
+div.container menu.centermenu li:hover{
+	background-image:url('../../images/zohreh-img/img-menu/btn-2.png');
+}
+
+div.container menu.centermenu li img{
+	margin-left:15px;
+}
+
+div.container menu.centermenu li p{
+	 text-align:center;
+	 text-shadow:1px 1px 1px #fff,-1px -1px 1px #111;
+}
