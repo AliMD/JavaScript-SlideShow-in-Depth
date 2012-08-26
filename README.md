@@ -15,7 +15,7 @@ Create an [issue](https://github.com/AliMD/JavaScript-SlideShow-in-Depth/issues/
 * [PHP](http://ali.md/php/)
 
 ### License
-Copyright (c) 2012, Ali Mihandoost (i@ali.md) under a [MIT License](http://opensource.org/licenses/MIT).
+Copyright (c) 2012, [Ali Mihandoost](http://ali.md/) (i@ali.md) under [MIT License](http://opensource.org/licenses/MIT).
 
 ### A 1devs tutorial
 Produced by 1Devs Education Department

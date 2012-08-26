@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* Css document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+}
+div.container{
+	min-height: 400px;
+	padding: 1px;
+}
+div.main{
+	width: 450px;
+	margin: 0 auto;
+	height: 300px;
+	margin-top: 30px;
+}
+div.slideshow{
+	width: 450px;
+	height: 300px;
+}
+div.slideshow div{
+	width: 112.5px;
+	height: 100px;
+	float: left;
+}
+div.footer{
+	width: 450px;
+	height: 100px;
+	margin: 0 auto;
+}
+div.footer div.menu{
+	width: 230px;
+	height: inherit;
+	margin: 0 auto;
+}
+div.menu ul{
+	width: inherit;
+	height: inherit;
+	list-style-type: none;
+}
+div.menu ul li{
+	width: 50px;
+	height: 50px;
+	-webkit-box-shadow:inset 0px 0px 10px #68e;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+div.menu ul li.active{
+	-webkit-box-shadow:inset 0px 0px 30px #68e;
+}

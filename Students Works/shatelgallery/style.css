@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;	
+}
+div.logo{
+	width:66px;
+	height:83px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url('../../images/shatelgallery/logo.png');
+	margin-bottom:30px;
+}
+div.container{
+	width:1000px;
+	height:470px;
+	margin:50px auto;
+}
+div.slideshow{
+	width:976px;
+	height:357px;
+	margin:0 auto;
+	overflow:hidden;
+}
+div.train{
+	width:2000px;
+	height:inherit;
+}
+div.train > div{
+	height:inherit;
+	width:39px;
+	float:left;
+	background-position:right center;
+	background-repeat:no-repeat;
+	margin-right:2px;
+}
