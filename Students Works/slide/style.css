@@ -1,3 +1,101 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	padding:0;
+	margin:0;	
+}
+
+body{
+	font-family: "Lucida Grande", Arial, Sans-Serif;
+	background: #222;
+}
+
+div.slider div mover a{
+	text-decoration: none; 
+	outline: none;
+}
+
+div.slider div mover a img{
+	border: none;
+}
+
+#page-wrap{
+	background: white; 
+	width: 960px; 
+	margin: 0 auto; 
+	padding: 50px 0; 
+	border:1px solid  red;	
+}
+
+div.page-wrap h2{
+	font-family: Georgia, Serif; 
+	font-size: 36px; 
+	text-align: center; 
+	font-weight: normal;
+}
+
+#slider{ 
+	background: white url(images/slider-bg.jpg); 
+	height: 227px; 
+	overflow: hidden;
+	position: relative; margin: 50px 0;
+	border:1px solid  blue;
+}
+
+#mover{
+	width: 2880px; 
+	position: relative;
+	border:1px solid  magenta;
+}
+
+.slide{ 
+	padding: 40px 30px; 
+	width: 900px; 
+	float: left; 
+	position: relative; 
+}
+
+.slide h1{ 
+	font-family: Helvetica, Sans-Serif; 
+	font-size: 30px; 
+	letter-spacing: -1px;
+	color: #ac0000;
+}
+
+.slide p{ 
+	color: #999; 
+	font-size: 12px; 
+	line-height: 22px; 
+	width: 300px; 
+}
+
+.slide img{ 
+	position: absolute; 
+	top: 20px; 
+	left: 400px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
