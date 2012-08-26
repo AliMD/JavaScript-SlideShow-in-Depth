@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#E6E6E6;/*kar nemikone????*/
+}
+
+div.container{
+	width:980px;
+}
+
+div.container .formdesign{
+	width:250px;
+	margin:0 auto;
+}
+
+input{
+
+}
