@@ -140,7 +140,7 @@ nav.right-menu a div.txt {
 	text-transform: capitalize;
 	overflow: hidden;
 }
-/* ---------------------- gallery ------------------*/
+/* ---------------------- gallery link ------------------*/
 ul.gallery-link{
 	position: absolute;
 	left:70px;
@@ -168,11 +168,6 @@ ul.gallery-link li a{
 	text-transform: capitalize;
 	overflow: hidden;
 }
-
-
-
-
-
 
 
 

@@ -4,14 +4,6 @@ Math.random = function(a,b){
 	return Math.round( Math.rnd()*(b-a+1))+a;
 }
 
-function rndcolor(){
-		var c ='#';
-		for(var i=0;i<6;i++){
-			c+=rnd(0,15).toString(16);	
-		}
-		return c;
-	}
-
 $(function(){
 	var img = $("div.gallery a");
 	img.each(function(){
@@ -19,7 +11,7 @@ $(function(){
 			left:Math.random(150,500),
 			bottom:Math.random(150,500),
 			rotate:Math.random(90,180)+'deg',
-			scale:(0.1,0.8)
+			scale:(0.1,0.9)
 		},900);	
 	});
 	
@@ -36,7 +28,7 @@ $(function(){
 	img.mouseout(function(){
 		$(this).css({'z-index':'1'});
 		$(this).animate({
-			rotate:Math.random(20,50)+'deg',
+			rotate:Math.random(20,80)+'deg',
 			border:'2px solid #069'
 		},1000)
 	});

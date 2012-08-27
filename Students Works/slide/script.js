@@ -48,7 +48,7 @@ $(function(){
 	slide.mouseover(stopAuto);
 	slide.mouseout(startAuto);
 	
-	// -------------- java menu  ----------------
+// -------------- java menu  ----------------
 	var list = $('nav.right-menu li');
 		txt = $('nav.right-menu a div.txt');
 		img = $('nav.right-menu a img');
