@@ -18,7 +18,7 @@
 	<div class="slide"> 
     	<div class="train">
             <?php
-                    $path="../../images";
+                    $path="images";
                     $lenpic=0;
                     $scan=scandir($path);
                     foreach($scan as $img){
