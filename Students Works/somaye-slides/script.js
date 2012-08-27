@@ -1,4 +1,3 @@
-// JavaScript Document
 
 $(function(){
 	
@@ -67,10 +66,15 @@ $(function(){
 	list.mouseover(function(){
 		$(this).animate({left:'70px',
 		},500);
+		img.animate({rotate:'360'+'deg',
+		},500);
 	});
 	
 	list.mouseout(function(){
-		$(this).animate({left:'0px'},500);
+		$(this).animate({left:'0px'
+		},500);
+		img.animate({rotate:'-360'+'deg',
+		},500);
 	});
 	
 	txt.mouseover(function(){
@@ -82,14 +86,4 @@ $(function(){
 		$(this).animate({fontSize:'12px',
 		},500);
 	});
-	
-	img.mouseover(function(){
-		$(this).animate({rotate:'360'+'deg',
-		},500);
-	});
-	
-	img.mouseout(function(){
-		$(this).animate({rotate:'-360'+'deg',
-		},500);
-	});	
 })
