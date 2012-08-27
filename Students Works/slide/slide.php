@@ -52,7 +52,7 @@
     </div>
 <!-- ----------------- Gallery Link --------------------------- -->
 	<ul class="gallery-link">
-    	<li><a href="gallery.html" target="_blank">Gallery Link</a></li>
+    	<li><a href="gallery/gallery.php" target="_blank">Gallery Link</a></li>
     </ul>
     
 </div>
