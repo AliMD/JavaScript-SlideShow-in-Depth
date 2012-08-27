@@ -18,6 +18,7 @@ div.container{
 }
 
 div.slide{
+	margin-top:30px;
 	background:#d9d9d9;
 	border-bottom:5px solid black;
 	width: 1000px;
@@ -105,7 +106,7 @@ div.slide ul.button li.active{
 nav.right-menu {
 	position: absolute;
 	left:-70px;
-	top:10px;
+	top:60px;
 }
 
 nav.right-menu menu {
@@ -114,10 +115,11 @@ nav.right-menu menu {
 }
 
 nav.right-menu li {
-	border-bottom:2px solid #1d2d3d;
-	background-color:#2d3d4d;
+	background-color:#3d4d5d;
 	height:60px;
 	position:relative;
+	border-bottom:2px solid #1d2d3d;
+	border-radius:0 5px 5px 0;
 }
 
 nav.right-menu a {
@@ -137,7 +139,34 @@ nav.right-menu a div.txt {
 	margin-top: -55px;
 	text-transform: capitalize;
 	overflow: hidden;
+}
+/* ---------------------- gallery ------------------*/
+ul.gallery-link{
+	position: absolute;
+	left:70px;
+	bottom:0px;
+	width:100px;
+	list-style-type: none;
+}
 
+ul.gallery-link li {
+	background-color:#4d5d6d;
+	height:30px;
+	position:relative;
+	border-bottom:2px solid #1d2d3d;
+	border-radius:5px 5px 0 0;
+	padding-left:5px;
+}
+ul.gallery-link li a{
+	font-size: 16px;
+	font-family: cursive;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	width: 60px;
+	color:#FFF;
+	text-transform: capitalize;
+	overflow: hidden;
 }
 
 

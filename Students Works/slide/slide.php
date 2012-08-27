@@ -15,19 +15,17 @@
 <body>
 
 <div class="container">
-	
+<!-- ----------------- Menu --------------------------- -->
     <nav class="right-menu">
         <menu>
-            
             <li><a href='#'><img src="images/twitter.png" /><div class="txt">twitter</div></a></li>
             <li><a href='#'><img src="images/google-plus.png" /><div class="txt">google+</div></a></li>
             <li><a href='#'><img src="images/skype.png" /><div class="txt">skype</div></a></li>
             <li><a href='#'><img src="images/rss.png" /><div class="txt">rss</div></a></li>
             <li><a href='#'><img src="images/facebook.png" /><div class="txt">facebook</div></a></li>
-    
         </menu> 
     </nav>
-
+<!-- ----------------- slide --------------------------- -->
 	<div class="slide"> 
     	<div class="train">
             <?php
@@ -52,6 +50,11 @@
             <li><img src="images/tn-model3.png" alt="Model 3" /></li>
 		</ul>
     </div>
+<!-- ----------------- Gallery Link --------------------------- -->
+	<ul class="gallery-link">
+    	<li><a href="gallery.html" target="_blank">Gallery Link</a></li>
+    </ul>
+    
 </div>
    	
 
