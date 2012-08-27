@@ -72,12 +72,12 @@ div.slide:hover div.next{
 
 div.slide div.prv{
 	left:10px;
-	background-image:url('images/bt-prev.png');
+	background-image:url('../../images/soodmand-img/slide/bt-prev.png');
 }
 
 div.slide div.next{
 	right:10px;
-	background-image:url('images/bt-next.png');
+	background-image:url('../../images/soodmand-img/slide/bt-next.png');
 }
 
 /* ------------ button ------------ */

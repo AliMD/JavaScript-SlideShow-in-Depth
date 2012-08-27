@@ -8,8 +8,8 @@ $(function(){
 	var img = $("div.gallery a");
 	img.each(function(){
 		$(this).animate({
-			left:Math.random(150,500),
-			bottom:Math.random(150,500),
+			left:Math.random(50,500),
+			bottom:Math.random(50,500),
 			rotate:Math.random(90,180)+'deg',
 			scale:(0.1,0.9)
 		},900);	

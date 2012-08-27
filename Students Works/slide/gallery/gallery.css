@@ -7,7 +7,7 @@
 }
 
 body{
-	background-image:url('images/stat-bg.png');
+	background-image:url('../../../images/soodmand-img/gallery/stat-bg.png');
 }
 
 div.container{
@@ -16,13 +16,13 @@ div.container{
 }
 
 div.gallery{
-	width:800px; /* width dar gallery behtare k az 800px bishtar nashe */
+	width:800px;
 	height:600px;
 	border:2px outset #666;
 	position:relative;
 	margin:20px auto 0;
 	overflow:hidden;
-	background-image:url('images/1.png');
+	background-image:url('../../../images/soodmand-img/gallery/1.png');
 }
 
 div.gallery a{
