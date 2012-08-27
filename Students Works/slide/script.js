@@ -46,5 +46,50 @@ $(function(){
 	}
 	
 	slide.mouseover(stopAuto);
-	slide.mouseout(startAuto);	
+	slide.mouseout(startAuto);
+	
+	// -------------- java menu  ----------------
+	var list = $('nav.right-menu li');
+		txt = $('nav.right-menu a div.txt');
+		img = $('nav.right-menu a img');
+		du = 400;
+		delay = 100;
+
+	list.each(function(){
+		var that = $('this');
+		setTimeout(function(){
+			that.animate({
+				left:'-70'
+			},du);
+		},delay += du);
+	});
+
+	list.mouseover(function(){
+		$(this).animate({left:'70px',
+		},500);
+	});
+	
+	list.mouseout(function(){
+		$(this).animate({left:'0px'},500);
+	});
+	
+	txt.mouseover(function(){
+		$(this).animate({fontSize:'13px',
+		},500);
+	});
+	
+	txt.mouseout(function(){
+		$(this).animate({fontSize:'12px',
+		},500);
+	});
+	
+	img.mouseover(function(){
+		$(this).animate({rotate:'360'+'deg',
+		},500);
+	});
+	
+	img.mouseout(function(){
+		$(this).animate({rotate:'-360'+'deg',
+		},500);
+	});	
 })
