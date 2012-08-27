@@ -15,6 +15,19 @@
 <body>
 
 <div class="container">
+	
+    <nav class="right-menu">
+        <menu>
+            
+            <li><a href='#'><img src="images/twitter.png" /><div class="txt">twitter</div></a></li>
+            <li><a href='#'><img src="images/google-plus.png" /><div class="txt">google+</div></a></li>
+            <li><a href='#'><img src="images/skype.png" /><div class="txt">skype</div></a></li>
+            <li><a href='#'><img src="images/rss.png" /><div class="txt">rss</div></a></li>
+            <li><a href='#'><img src="images/facebook.png" /><div class="txt">facebook</div></a></li>
+    
+        </menu> 
+    </nav>
+
 	<div class="slide"> 
     	<div class="train">
             <?php
