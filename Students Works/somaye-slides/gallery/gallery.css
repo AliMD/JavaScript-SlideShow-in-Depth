@@ -1,0 +1,34 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url('../../../images/soodmand-img/gallery/stat-bg.png');
+}
+
+div.container{
+	width:950px;
+	margin:0 auto;	
+}
+
+div.gallery{
+	width:800px;
+	height:600px;
+	border:2px outset #666;
+	position:relative;
+	margin:20px auto 0;
+	overflow:hidden;
+	background-image:url('../../../images/soodmand-img/gallery/1.png');
+}
+
+div.gallery a{
+	position:absolute;
+	display:block;
+	z-index:1;
+	border:3px solid #349;	
+}
+
+div.gallery img{
+	display:block;	
+}
