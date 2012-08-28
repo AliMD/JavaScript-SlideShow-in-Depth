@@ -4,12 +4,12 @@ Math.random=function(a,b){
 	return Math.floor(Math.rnd()*(b-a+1))+a;
 }
 $(function(){
-	var pics = $('div.slRnd a');
+	var pics = $('div.slRnd div.imgS');
 
 	pics.each(function(){
 		$(this).animate({
-			left:Math.random(50,500),
-			top:Math.random(50,300),
+			left:Math.random(10,600),
+			top:Math.random(10,300),
 			opacity:0.9,
 			'-moz-transform':'rotate('+Math.random(-90,90)+'deg)',
 			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)'
@@ -17,22 +17,22 @@ $(function(){
 		},500);
 	});
 	pics.mouseover(function(){
-		$(this).css({
+		$(this).animate({
 			'z-index':2,
 			opacity:0.98,
-			'-moz-transform':'rotate(90deg)',
-			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)',
-			'-moz-transform':'scale(1.5,1.5)'
-		});
+		 	'-moz-transform':'rotate('+Math.random(-90,90)+'deg)',
+		 	'-moz-transform':'scale(2,2)',
+		 	'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)',
+		 	'-webkit-transform':'scale(2,2)'
+		},700);
+		
 	});
 	pics.mouseout(function(){
-		$(this).css({
+		$(this).animate({
 			'z-index':1,
-			opacity:0.9,
-			'-moz-transform':'scale(1,1)',
-			'-moz-transform':'rotate(90deg)'
-		});
+			'-moz-transform':'rotate('+Math.random(-90,90)+'deg)',
+			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)'
+		},700);
 	});
 	
-
 });
