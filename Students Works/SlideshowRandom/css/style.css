@@ -15,6 +15,9 @@
  	width:950px;
  	margin: 0 auto;
  }
+ div.clear{
+ 	clear: both;
+ }
  /*SlideShow Random
  ..............................*/
  div.slRnd{
@@ -24,7 +27,7 @@
  	width: 800px;
  	height: 600px;
  }
- div.slRnd a{
+ div.slRnd div.imgS{
  	border: solid #fff;
  	border-width: 5px 5px 45px 5px;
  	border-radius: 2px;
@@ -35,7 +38,6 @@
 
  	
  }
- div.slRnd a img{
+ div.slRnd div.imgS img{
  	display: block;
  }
-  
