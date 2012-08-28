@@ -7,11 +7,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript" src="../../zepto.js"></script>
 <script type="text/javascript" src="script.js"></script>
-
-
-
 </head>
-
 <body>
 
 <div class="container">
@@ -30,14 +26,12 @@
     	<div class="train">
             <?php
                     $path="../../images/soodmand-img/slide";
-                    $lenpic=0;
                     $scan=scandir($path);
                     foreach($scan as $img){
                         $exp=explode('.',$img);
                         $type=end($exp);
                         if($type=='jpg'){
                             echo "<div style=\"background-image:url('$path/$img');\"></div>";
-                            $lenpic++;
                         }
                     }
                 ?>
@@ -45,9 +39,17 @@
         <div class="prv"></div>
         <div class="next"></div>
         <ul class="button">
-          	<li><img src="../../images/soodmand-img/slide/tn-model1.png" alt="Model 1" /></li>
-            <li><img src="../../images/soodmand-img/slide/tn-model2.png" alt="Model 2" /></li>
-            <li><img src="../../images/soodmand-img/slide/tn-model3.png" alt="Model 3" /></li>
+      	<?php
+			$image = '../../images/soodmand-img/slide/button';
+			$img = scandir($image);
+			foreach($img as $pic){
+				$exp = explode('.',$pic);
+				$type = end($exp);
+				if ($type == 'png'){
+					echo "<li><img src='$image/$pic' /></li>";
+				}
+			}
+		?> 
 		</ul>
     </div>
 <!-- ----------------- Gallery Link --------------------------- -->
@@ -56,9 +58,6 @@
     </ul>
     
 </div>
-   	
-
-
 
 </body>
 </html>
