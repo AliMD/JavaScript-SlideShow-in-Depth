@@ -19,13 +19,18 @@ $(function(){
 	pics.mouseover(function(){
 		$(this).css({
 			'z-index':2,
-			opacity:0.98
+			opacity:0.98,
+			'-moz-transform':'rotate(90deg)',
+			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)',
+			'-moz-transform':'scale(1.5,1.5)'
 		});
 	});
 	pics.mouseout(function(){
 		$(this).css({
 			'z-index':1,
-			opacity:0.9
+			opacity:0.9,
+			'-moz-transform':'scale(1,1)',
+			'-moz-transform':'rotate(90deg)'
 		});
 	});
 	
