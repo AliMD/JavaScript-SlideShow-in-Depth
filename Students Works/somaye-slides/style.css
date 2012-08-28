@@ -1,0 +1,169 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+body {
+	background: #1d2d3d;
+	color: white;
+	font-family: sans-serif;
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+	padding:1px;
+}
+
+div.slide{
+	margin-top:30px;
+	background:#d9d9d9;
+	border-bottom:5px solid black;
+	width: 1000px;
+	position:relative;
+	height:547px;
+	overflow:hidden;
+}
+
+div.slide div.train{
+	background:  #D9D9D9;
+	width:5000px;
+	height:542px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition : all 500ms ease-out;
+	-moz-transition : all 500ms ease-out;
+	-ms-transition : all 500ms ease-out;
+	-o-transition : all 500ms ease-out;
+	transition : all 500ms ease-out;
+}
+
+div.slide div.train > div{
+	width:1000px;
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+}
+/* --------------- next & prev ---------------------------------- */
+
+div.slide div.prv,
+div.slide div.next{
+	position:absolute;
+	top:220px;
+	width:35px;
+	height:66px;
+	opacity:0;
+	cursor:pointer;
+	background-repeat:no-repeat;
+	-webkit-transition:opacity 500ms;
+	-moz-transition:opacity 500ms;
+	-ms-transition:opacity 500ms;
+	-o-transition:opacity 500ms;
+	transition:opacity 500ms;
+}
+
+div.slide:hover div.prv,
+div.slide:hover div.next{
+	opacity:1;
+}
+
+div.slide div.prv{
+	left:10px;
+	background-image:url('../../images/soodmand-img/slide/bt-prev.png');
+}
+
+div.slide div.next{
+	right:10px;
+	background-image:url('../../images/soodmand-img/slide/bt-next.png');
+}
+
+/* ------------ button ------------ */
+
+div.slide ul.button{
+	list-style:none;
+	position:absolute;
+	right:50px;
+	bottom:10px;
+}
+
+div.slide ul.button li{
+	float:left;
+	cursor:pointer;
+	-webkit-transition:all 1100ms;
+	opacity:0.5;
+}
+
+div.slide ul.button li:hover,
+div.slide ul.button li.active{
+	-webkit-transition-duration:200ms;
+	opacity:1;
+}
+
+/* ---------------------- menu ------------------*/
+nav.right-menu {
+	position: absolute;
+	left:-70px;
+	top:60px;
+}
+
+nav.right-menu menu {
+	width:100px;
+	list-style-type: none;	
+}
+
+nav.right-menu li {
+	background-color:#3d4d5d;
+	height:60px;
+	position:relative;
+	border-bottom:2px solid #1d2d3d;
+	border-radius:0 5px 5px 0;
+}
+
+nav.right-menu a {
+	text-decoration:none;
+}
+
+nav.right-menu a div.txt {
+	font-size: 12px;
+	font-family: cursive;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	width: 60px;
+	color:#FFF;
+	-webkit-transform:rotate(90deg); 
+	margin-left: 55px;
+	margin-top: -55px;
+	text-transform: capitalize;
+	overflow: hidden;
+}
+/* ---------------------- gallery link ------------------*/
+ul.gallery-link{
+	position: absolute;
+	left:70px;
+	bottom:0px;
+	width:100px;
+	list-style-type: none;
+}
+
+ul.gallery-link li {
+	background-color:#4d5d6d;
+	height:30px;
+	position:relative;
+	border-bottom:2px solid #1d2d3d;
+	border-radius:5px 5px 0 0;
+	padding-left:5px;
+}
+ul.gallery-link li a{
+	font-size: 16px;
+	font-family: cursive;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	width: 60px;
+	color:#FFF;
+	text-transform: capitalize;
+	overflow: hidden;
+	text-decoration:none;
+}
