@@ -36,7 +36,7 @@ $(function(){
 				opacity:1,
 				'z-index':'2',
 				rotate:'360deg',
-				scale:2,
+				scale:3,
 				},400);
 		});
 		
