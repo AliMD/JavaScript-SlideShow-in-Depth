@@ -8,8 +8,8 @@ $(function(){
 
 	pics.each(function(){
 		$(this).animate({
-			left:Math.random(10,600),
-			top:Math.random(10,300),
+			left:Math.random(10,500),
+			top:Math.random(100,400),
 			opacity:0.9,
 			'-moz-transform':'rotate('+Math.random(-90,90)+'deg)',
 			'-webkit-transform':'rotate('+Math.random(-90,90)+'deg)'
