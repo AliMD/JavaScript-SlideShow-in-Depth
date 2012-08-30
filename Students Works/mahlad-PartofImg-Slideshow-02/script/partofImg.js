@@ -7,16 +7,18 @@ $(function(){
 	opacitySl.last().css({'padding-right':'400px'});
 	partSl.mouseover(function(){
 		partSl.animate({width:'60px'},800);
-		$(this).animate({width:'500px'},800);
+		$(this).animate({
+			width:'500px',
+			opacity:1
+	},800);
 
 	});
-	opacitySl.mouseover(function(){
-		opacitySl.animate({'background-color':'rgba(0,0,0,0.4)'},800);
-		$(this).animate({'background-color':'rgba(0,0,0,0)'},800);
-	});
+	
 	$('div.partSl').mouseout(function(){
-		partSl.animate({width:partWIdth+'px'},800);
-		opacitySl.animate({'background-color':'rgba(0,0,0,0.4)'},800);
+		partSl.animate({
+			width:partWIdth+'px',
+			opacity:0.5
+		},800);
 	});
 
 
