@@ -14,6 +14,9 @@
  div.container{
  	width:950px;
  	margin: 0 auto;
+ 	background: url('../../../images/SlideshowRandom/Photo.gif')no-repeat center center;
+ 	width: 900px;
+ 	height: 710px;
  }
  div.clear{
  	clear: both;
@@ -21,7 +24,7 @@
  /*SlideShow Random
  ..............................*/
  div.slRnd{
- 	margin: 90px auto;
+ 	margin: 10px auto;
  	position: relative;
  	width: 800px;
  	height: 600px;
@@ -34,9 +37,8 @@
  	position: absolute;
  	z-index: 1;
  	opacity: 0;
-
  	
  }
- div.slRnd div.imgS img{
+ div.slRnd div.imgS a img{
  	display: block;
  }
