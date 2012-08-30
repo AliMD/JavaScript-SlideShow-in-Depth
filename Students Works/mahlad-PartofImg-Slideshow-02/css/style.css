@@ -1,0 +1,86 @@
+/*
+ * Js Part of Image Slideshow CSS
+ *
+ * Copyright (c) <2012> Mahla Delpak<mahlad365@gmail.com>
+ *
+ * http://opensource.org/licenses/MIT
+ */
+/*Global
+ ..............................*/
+ *{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url('../../../images/mahlad-PartofImg-Slideshow/feather.png')repeat center center;
+	width: 100%;
+	height: 100%;
+}
+div.container{
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+/*Part of Image Slideshow
+...............................*/
+
+div.partSl{
+	width: 800px;
+	height: 300px;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	background: url('../images/loading.gif') no-repeat center center;
+	border-radius:8px;
+	border:solid rgba(0,0,0,0.85);
+	border-width:0 10px 0 0;
+	
+}
+div.partSl div.imgSl{
+	width: 1400px;
+	height: inherit;
+	background-color: rgba(0,0,0,0.7);
+}
+
+div.partSl div.imgSl > div{
+	float: left;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-position: left top; 
+	border-radius:8px;
+
+}
+div.partSl div.imgSl > div > span{
+	width: 480px;
+	height: 280px;
+	float: left;
+	background-color: rgba(0,0,0,0.4);
+	border:10px solid rgba(0,0,0,0.7);
+	border-radius:8px;
+
+}
+/*
+div.partSl div.imgSl span{
+	position: absolute;
+	left: 0;
+	height: 20px;
+	width: 300px;
+	background-color: rgba(0,0,0,0.46);
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	-webkit-transform-origin:left top;
+	-webkit-transform:translateY(300px) rotate(-90deg);
+	-moz-transform-origin:left top;
+	-moz-transform:translateY(300px) rotate(-90deg);
+	-o-transform-origin:left top;
+	-o-transform:translateY(300px) rotate(-90deg);
+	-ms-transform-origin:left top;
+	-ms-transform:translateY(300px) rotate(-90deg);
+}
+
+*/
