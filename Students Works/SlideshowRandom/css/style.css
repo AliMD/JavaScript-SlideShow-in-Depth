@@ -14,9 +14,6 @@
  div.container{
  	width:950px;
  	margin: 0 auto;
- 	background: url('../../../images/SlideshowRandom/Photo.gif')no-repeat center center;
- 	width: 900px;
- 	height: 710px;
  }
  div.clear{
  	clear: both;

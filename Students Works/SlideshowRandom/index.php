@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"/>
 	<title>Js SlideShow Random</title>
 	<link rel="stylesheet" type="text/css" href="../../reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">

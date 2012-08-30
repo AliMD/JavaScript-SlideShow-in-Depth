@@ -33,8 +33,7 @@ div.partSl{
 	cursor: pointer;
 	background: url('../images/loading.gif') no-repeat center center;
 	border-radius:8px;
-	border:solid rgba(0,0,0,0.85);
-	border-width:0 10px 0 0;
+	background-color: #001;
 	
 }
 div.partSl div.imgSl{
@@ -48,39 +47,6 @@ div.partSl div.imgSl > div{
 	height: inherit;
 	background-repeat: no-repeat;
 	background-position: left top; 
-	border-radius:8px;
+	opacity: 0.5;
 
 }
-div.partSl div.imgSl > div > span{
-	width: 480px;
-	height: 280px;
-	float: left;
-	background-color: rgba(0,0,0,0.4);
-	border:10px solid rgba(0,0,0,0.7);
-	border-radius:8px;
-
-}
-/*
-div.partSl div.imgSl span{
-	position: absolute;
-	left: 0;
-	height: 20px;
-	width: 300px;
-	background-color: rgba(0,0,0,0.46);
-	color: #fff;
-	padding: 20px 0;
-	text-align: center;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: capitalize;
-	-webkit-transform-origin:left top;
-	-webkit-transform:translateY(300px) rotate(-90deg);
-	-moz-transform-origin:left top;
-	-moz-transform:translateY(300px) rotate(-90deg);
-	-o-transform-origin:left top;
-	-o-transform:translateY(300px) rotate(-90deg);
-	-ms-transform-origin:left top;
-	-ms-transform:translateY(300px) rotate(-90deg);
-}
-
-*/
