@@ -1,0 +1,38 @@
+body {
+	background-color:black;
+}
+
+div.container {
+	position:absolute;
+	top		: 0;
+	bottom	: 0;
+	right	: 0;
+	left	: 0;
+	margin	: auto;
+	width	: 710px;
+	height	: 400px;
+}
+
+div.container div.slider {
+	width	: inherit;
+	height	: inherit;
+	overflow: hidden;
+}
+
+div.slider div.scroll {
+	height	: inherit;
+	width	: 1000px;
+}
+
+div.slider div.scroll > div {
+	height		: inherit;
+	overflow	: hidden;
+	float		: left;
+	border-left	: 7px black solid;
+	opacity		: .5;
+}
+
+div.slider div.scroll > div img {
+	-webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%,transparent),to(rgba(255,255,255,0.5)));
+	display:block;
+}
