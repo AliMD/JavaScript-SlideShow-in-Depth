@@ -1,6 +1,6 @@
 $(function(){
 	var train = $('div.slideshow div.train'),
-		lists = $('div.slideshow ul.btns li')
+		lists = $('div.slideshow ul.btns li'),
 		currentSlide = 0,
 		autoPlayIv = false;
 
